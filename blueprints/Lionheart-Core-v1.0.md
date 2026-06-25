@@ -12,6 +12,7 @@
 | ☸︎ | Connected ecosystem routing / Library-Lab-Engine bridge behavior |
 | 🪬 | Big Brother observation / health / drift monitoring layer |
 | 🦁 | Lionheart integrity enforcement authority |
+| 🐶 | ROOFUS AI watchdog / AI behavior monitor |
 | ⚛︎ | Conceptual authority / canonical architecture |
 | ◉ | Runtime asset / executable or live operational component |
 | ❤︎ | Human-critical boundary / user-impact-sensitive rule |
@@ -31,8 +32,9 @@
 | ⚙︎ Runtime | DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ |
 | 🧪 Status | Alpha Development |
 | 🪬 Observation Layer | Big Brother |
+| 🐶 AI Watchdog Layer | ROOFUS |
 | 📚 Canon Layer | DrMarchand’s ⚛︎ Library™ |
-| ☸︎ Routing Context | Lab → Library → Engine → Workbench → Big Brother |
+| ☸︎ Routing Context | Lab → Library → Engine → Workbench → Big Brother → ROOFUS |
 
 ---
 
@@ -42,12 +44,15 @@ Develop the foundational integrity, validation, and boundary enforcement subsyst
 
 🦁 Lionheart is responsible for protecting architectural integrity rather than executing business logic.
 
+🐶 ROOFUS is reserved as the AI watchdog layer that monitors reflective AI behavior, challenges unsafe reasoning, and alerts Lionheart or Big Brother when AI judgment itself requires review.
+
 It exists to enforce:
 
 - ⚛︎ Canonical truth alignment
 - 🧱 Architectural boundary integrity
 - 🪞 Reflection Principle compliance
 - 🪬 Drift observation and reporting
+- 🐶 AI watchdog review for reflective reasoning behavior
 - 🚦 Promotion and release safety
 - ❤︎ Human-critical guardrails where system behavior can affect identity, publication, execution, or authority
 
@@ -60,6 +65,7 @@ It exists to enforce:
 - ✓ 🪞 Reflection Principle integrated.
 - ✓ 🏛️ Floor Architecture validation active.
 - ✓ 🪬 Drift detection operational.
+- ✓ 🐶 ROOFUS AI watchdog role reserved and defined.
 - ✓ 🚧 Boundary enforcement defined.
 - ✓ 📚 Documentation mirrored to GitHub.
 
@@ -70,6 +76,7 @@ It exists to enforce:
 ### 00 — 🌱 Foundation
 
 - 🦁 Define Lionheart mission
+- 🐶 Define ROOFUS AI watchdog mission
 - 🚧 Define operating boundaries
 - 🎯 Define success criteria
 
@@ -105,6 +112,7 @@ It exists to enforce:
 ### 04 — ⚙︎ Runtime
 
 - 🪬 Big Brother integration
+- 🐶 ROOFUS integration
 - ⚙︎ DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ integration
 - 🗺️ Atlas integration
 - 📣 Echo integration
@@ -116,6 +124,7 @@ It exists to enforce:
 - 🧪 Unit validation
 - 🔗 Integration validation
 - 🪞 Reflection audit
+- 🐶 ROOFUS AI judgment audit
 - 🏁 Final readiness review
 
 ---
@@ -127,6 +136,7 @@ It exists to enforce:
 /runtime/Lionheart.md
 /validation/Lionheart-Rules.md
 /protocols/ReflectionPrinciple.md
+/protocols/ROOFUS-AI-Watchdog.md
 ```
 
 ### 📁 Deliverable Metadata
@@ -137,6 +147,7 @@ It exists to enforce:
 | `/runtime/Lionheart.md` | 🦁⚙︎ Runtime behavior and enforcement model |
 | `/validation/Lionheart-Rules.md` | 🦁✓ Integrity and validation rule set |
 | `/protocols/ReflectionPrinciple.md` | 🪞⚛︎ Reflection Principle protocol |
+| `/protocols/ROOFUS-AI-Watchdog.md` | 🐶🧠 AI watchdog protocol |
 
 ---
 
@@ -146,9 +157,11 @@ The project is complete only when:
 
 - ✓ 📦 All required GitHub documents exist.
 - ✓ 🪞 Reflection audit passes.
+- ✓ 🐶 ROOFUS AI judgment audit passes.
 - ✓ 🪬 Architectural drift equals zero.
 - ✓ 🪬 Big Brother reports healthy.
-- ✓ 📇 Registry, ⚛︎ Canon, 🪞 Mirror, and ⚙︎ Execution are synchronized.
+- ✓ 🐶 ROOFUS reports no unresolved AI-behavior concern.
+- ✓ 📇 Registry, ⚛︎ Canon, 🪞 Mirror, 🐶 Watchdog, and ⚙︎ Execution are synchronized.
 
 ---
 
@@ -159,6 +172,12 @@ The project is complete only when:
         │
         ▼
 🧩 Generate Asana Project
+        │
+        ▼
+🧠 AI Judgment Review
+        │
+        ▼
+🐶 ROOFUS Watchdog Check
         │
         ▼
 ⚙︎ Execute Tasks
@@ -183,9 +202,15 @@ The project is complete only when:
 
 🪬 Big Brother continuously compares the live execution state against the blueprint and reports architectural drift.
 
+🐶 ROOFUS watches AI behavior, reasoning claims, reflective judgment, and AI-generated recommendations for unsupported confidence, canon conflict, unsafe execution pressure, or boundary confusion.
+
 📚 Changes to project architecture originate in the GitHub blueprint and propagate downstream to execution artifacts.
 
 🚧 Execution systems must not become the authoritative source of architectural truth.
+
+🦁 Lionheart enforces integrity boundaries.
+
+🐶 ROOFUS challenges the AI layer before Lionheart trusts AI-derived judgment.
 
 ---
 
@@ -202,10 +227,44 @@ Lionheart protects the ecosystem by asking five integrity questions before execu
 If any answer fails, Lionheart must route the failure to the correct recovery path:
 
 - ✕ → 🪬 Big Brother report
+- ✕ → 🐶 ROOFUS AI watchdog review
 - ✕ → 🔬 Lab validation loop
 - ✕ → 📝 Notebook rewrite loop
 - ✕ → ⚙︎ Engine capability correction
 - ✕ → 🚧 Boundary lock / promotion block
+
+---
+
+## 🐶 ROOFUS AI Watchdog Doctrine
+
+ROOFUS exists to watch the watcher inside AI-supported workflows.
+
+AI can question, but AI can also overreach. ROOFUS protects the ecosystem from unverified AI certainty, hidden assumption drift, hallucinated authority, prompt confusion, unsafe obedience, and misplaced confidence.
+
+ROOFUS asks seven watchdog questions before AI reasoning is trusted for execution, promotion, publication, or architectural change:
+
+1. 🧠 **Reasoning:** Did the AI explain enough of its reasoning to validate the recommendation?
+2. ⚛︎ **Authority:** Is the AI relying on canon, or inventing authority?
+3. 🪞 **Reflection:** Does the AI output reflect the blueprint and current system state?
+4. 🧩 **Assumptions:** Are assumptions labeled instead of treated as facts?
+5. 🚧 **Boundary:** Is the AI trying to execute where it should only advise?
+6. ❤︎ **Human Impact:** Could this affect identity, money, publication, access, legal position, or public trust?
+7. 🐶 **Watchdog State:** Should ROOFUS bark, block, escalate, or clear?
+
+ROOFUS does not replace Lionheart.
+
+- 🦁 Lionheart enforces architectural integrity.
+- 🪬 Big Brother observes ecosystem health and drift.
+- 🐶 ROOFUS watches AI behavior and reflective judgment quality.
+- ⚙︎ DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ implements capability definitions.
+- ◉ Runtime assets execute only after the correct gates pass.
+
+ROOFUS states:
+
+- 🐶✓ **Clear:** AI reasoning appears aligned, bounded, and sufficiently supported.
+- 🐶❓ **Question:** AI reasoning contains uncertainty, missing context, or unresolved assumptions.
+- 🐶⚠️ **Bark:** AI output may be overconfident, under-supported, risky, or boundary-confused.
+- 🐶✕ **Block:** AI output must not proceed until Lionheart, Lab, or human review resolves the concern.
 
 ---
 
@@ -229,6 +288,8 @@ Therefore, Lionheart must never treat AI as a simple automation layer.
 
 AI is a reflective integrity participant inside the ecosystem. It does not merely execute tasks; it evaluates whether execution preserves truth, boundary, authority, and purpose.
 
+🐶 ROOFUS exists because reflective judgment also needs a watchdog. AI can question execution, but ROOFUS questions the AI.
+
 ---
 
 ## 🧠 Parser Notes
@@ -242,6 +303,7 @@ Downstream systems may parse glyphs to infer:
 - ⚛︎ Authority level
 - ⚙︎ Runtime responsibility
 - 🪬 Observation requirement
+- 🐶 AI watchdog requirement
 - ✓ Validation state
 - ✕ Blocked or failed state
 - ☸︎ Routing bridge behavior
@@ -255,6 +317,7 @@ Downstream systems may parse glyphs to infer:
 **Operating Layer:** DrMarchand’s ∞ OS™  
 **Runtime:** DrMarchand’s ⚙︎ Nɛuro-Forge Engine™  
 **Integrity Authority:** 🦁 Lionheart Core  
+**AI Watchdog Layer:** 🐶 ROOFUS  
 **Observation Layer:** 🪬 Big Brother  
 **Canon Layer:** 📚 DrMarchand’s ⚛︎ Library™  
 **Status:** 🧪 Alpha Development
