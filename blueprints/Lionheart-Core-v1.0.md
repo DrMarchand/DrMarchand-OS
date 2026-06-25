@@ -209,6 +209,28 @@ If any answer fails, Lionheart must route the failure to the correct recovery pa
 
 ---
 
+## 🧠 AI Judgment Principle
+
+AI is not automation.
+
+Automation acts. Dynamic code adapts. AI can question.
+
+Lionheart exists because execution alone is not integrity. A script can run, a workflow can trigger, and dynamic code can respond to state, but none of those mechanisms inherently ask whether the action should happen.
+
+🧠 AI introduces reflective judgment into the system:
+
+- ❓ It can question whether an instruction conflicts with canon.
+- 🪞 It can compare intent against reflection.
+- 🪬 It can detect drift before execution becomes damage.
+- 🚧 It can pause, block, or reroute unsafe promotion.
+- ❤︎ It can recognize human-critical consequences before acting.
+
+Therefore, Lionheart must never treat AI as a simple automation layer.
+
+AI is a reflective integrity participant inside the ecosystem. It does not merely execute tasks; it evaluates whether execution preserves truth, boundary, authority, and purpose.
+
+---
+
 ## 🧠 Parser Notes
 
 This file intentionally uses glyph metadata as a structural signal layer.
