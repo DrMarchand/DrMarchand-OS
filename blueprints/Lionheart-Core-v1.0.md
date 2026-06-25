@@ -12,7 +12,10 @@
 | ☸︎ | Connected ecosystem routing / Library-Lab-Engine bridge behavior |
 | 🪬 | Big Brother observation / health / drift monitoring layer |
 | 🦁 | Lionheart integrity enforcement authority |
-| 🐶 | ROOFUS AI watchdog / AI behavior monitor |
+| 🐶 | Internal AI watchdog protocol / framework marker |
+| 🧩 | Asana execution mirror / task orchestration layer |
+| 🪞 | Mirror, reflection, or state comparison layer |
+| 🧾 | Ledger / change record / audit note |
 | ⚛︎ | Conceptual authority / canonical architecture |
 | ◉ | Runtime asset / executable or live operational component |
 | ❤︎ | Human-critical boundary / user-impact-sensitive rule |
@@ -32,9 +35,11 @@
 | ⚙︎ Runtime | DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ |
 | 🧪 Status | Alpha Development |
 | 🪬 Observation Layer | Big Brother |
-| 🐶 AI Watchdog Layer | ROOFUS |
+| 🐶 Internal Protocol | AI Watchdog Protocol, internal codename: ROOFUS |
+| 🧩 Execution Mirror | Asana Async Execution Mirror |
+| 🪞 Sealed Mirror | Microsoft OneDrive Mirror Protocol |
 | 📚 Canon Layer | DrMarchand’s ⚛︎ Library™ |
-| ☸︎ Routing Context | Lab → Library → Engine → Workbench → Big Brother → ROOFUS |
+| ☸︎ Routing Context | GitHub Blueprint → Asana Async Mirror → Big Brother Drift Audit → OneDrive Sealed Mirror |
 
 ---
 
@@ -44,7 +49,9 @@ Develop the foundational integrity, validation, and boundary enforcement subsyst
 
 🦁 Lionheart is responsible for protecting architectural integrity rather than executing business logic.
 
-🐶 ROOFUS is reserved as the AI watchdog layer that monitors reflective AI behavior, challenges unsafe reasoning, and alerts Lionheart or Big Brother when AI judgment itself requires review.
+🐶 The AI Watchdog Protocol, internal codename **ROOFUS**, is reserved as an internal framework for reviewing reflective AI behavior, challenging unsafe reasoning, and alerting Lionheart or Big Brother when AI judgment itself requires review.
+
+🧩 The Asana Async Execution Mirror keeps execution state live. It reads Asana task/project changes asynchronously, compares them against the GitHub blueprint, and updates Asana only through approved synchronization rules.
 
 It exists to enforce:
 
@@ -52,7 +59,9 @@ It exists to enforce:
 - 🧱 Architectural boundary integrity
 - 🪞 Reflection Principle compliance
 - 🪬 Drift observation and reporting
-- 🐶 AI watchdog review for reflective reasoning behavior
+- 🐶 Internal AI watchdog review for reflective reasoning behavior
+- 🧩 Asynchronous Asana execution-state synchronization
+- 🧾 Commit-to-execution update records
 - 🚦 Promotion and release safety
 - ❤︎ Human-critical guardrails where system behavior can affect identity, publication, execution, or authority
 
@@ -65,7 +74,10 @@ It exists to enforce:
 - ✓ 🪞 Reflection Principle integrated.
 - ✓ 🏛️ Floor Architecture validation active.
 - ✓ 🪬 Drift detection operational.
-- ✓ 🐶 ROOFUS AI watchdog role reserved and defined.
+- ✓ 🐶 Internal AI Watchdog Protocol role reserved and defined.
+- ✓ 🧩 Asana Async Execution Mirror defined.
+- ✓ 🧾 Asana update ledger defined.
+- ✓ 🪞 OneDrive sealed mirror protocol defined.
 - ✓ 🚧 Boundary enforcement defined.
 - ✓ 📚 Documentation mirrored to GitHub.
 
@@ -76,7 +88,8 @@ It exists to enforce:
 ### 00 — 🌱 Foundation
 
 - 🦁 Define Lionheart mission
-- 🐶 Define ROOFUS AI watchdog mission
+- 🐶 Define internal AI Watchdog Protocol mission
+- 🧩 Define Asana Async Execution Mirror mission
 - 🚧 Define operating boundaries
 - 🎯 Define success criteria
 
@@ -88,6 +101,7 @@ It exists to enforce:
 - 📇 Registry validation
 - ⚛︎ Canon validation
 - 🪞 Mirror validation
+- 🧩 Asana project identity validation
 
 ---
 
@@ -97,6 +111,7 @@ It exists to enforce:
 - 🪬 Drift detection
 - 🔗 Dependency verification
 - 🧬 Duplicate detection
+- 🧩 Asana task drift detection
 
 ---
 
@@ -106,13 +121,16 @@ It exists to enforce:
 - 🚧 Boundary enforcement
 - 🚦 Release gates
 - ⬆️ Promotion rules
+- 🧩 Asana update permission rules
 
 ---
 
 ### 04 — ⚙︎ Runtime
 
 - 🪬 Big Brother integration
-- 🐶 ROOFUS integration
+- 🐶 Internal AI Watchdog Protocol integration
+- 🧩 Asana async read/update integration
+- 🪞 OneDrive sealed mirror integration
 - ⚙︎ DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ integration
 - 🗺️ Atlas integration
 - 📣 Echo integration
@@ -124,7 +142,9 @@ It exists to enforce:
 - 🧪 Unit validation
 - 🔗 Integration validation
 - 🪞 Reflection audit
-- 🐶 ROOFUS AI judgment audit
+- 🐶 Internal AI judgment audit
+- 🧩 Asana synchronization audit
+- 🧾 Commit-to-Asana ledger audit
 - 🏁 Final readiness review
 
 ---
@@ -136,7 +156,9 @@ It exists to enforce:
 /runtime/Lionheart.md
 /validation/Lionheart-Rules.md
 /protocols/ReflectionPrinciple.md
-/protocols/ROOFUS-AI-Watchdog.md
+/protocols/AI-Watchdog-Protocol.md
+/protocols/Asana-Async-Execution-Mirror.md
+/protocols/OneDrive-Mirror-Protocol.md
 ```
 
 ### 📁 Deliverable Metadata
@@ -147,7 +169,9 @@ It exists to enforce:
 | `/runtime/Lionheart.md` | 🦁⚙︎ Runtime behavior and enforcement model |
 | `/validation/Lionheart-Rules.md` | 🦁✓ Integrity and validation rule set |
 | `/protocols/ReflectionPrinciple.md` | 🪞⚛︎ Reflection Principle protocol |
-| `/protocols/ROOFUS-AI-Watchdog.md` | 🐶🧠 AI watchdog protocol |
+| `/protocols/AI-Watchdog-Protocol.md` | 🐶🧠 Internal AI watchdog protocol, codename ROOFUS |
+| `/protocols/Asana-Async-Execution-Mirror.md` | 🧩🪞 Asynchronous Asana read/update protocol |
+| `/protocols/OneDrive-Mirror-Protocol.md` | 🪞🧾 Sealed OneDrive mirror and commit ledger protocol |
 
 ---
 
@@ -157,11 +181,14 @@ The project is complete only when:
 
 - ✓ 📦 All required GitHub documents exist.
 - ✓ 🪞 Reflection audit passes.
-- ✓ 🐶 ROOFUS AI judgment audit passes.
+- ✓ 🐶 Internal AI judgment audit passes.
+- ✓ 🧩 Asana async read/update audit passes.
+- ✓ 🧾 Commit-to-Asana update ledger exists.
+- ✓ 🪞 OneDrive mirror ledger exists.
 - ✓ 🪬 Architectural drift equals zero.
 - ✓ 🪬 Big Brother reports healthy.
-- ✓ 🐶 ROOFUS reports no unresolved AI-behavior concern.
-- ✓ 📇 Registry, ⚛︎ Canon, 🪞 Mirror, 🐶 Watchdog, and ⚙︎ Execution are synchronized.
+- ✓ 🐶 Internal AI Watchdog Protocol reports no unresolved AI-behavior concern.
+- ✓ 📇 Registry, ⚛︎ Canon, 🪞 Mirror, 🐶 Watchdog Protocol, 🧩 Asana Execution, and ⚙︎ Runtime Execution are synchronized.
 
 ---
 
@@ -171,19 +198,31 @@ The project is complete only when:
 ⚛︎ Blueprint (GitHub)
         │
         ▼
-🧩 Generate Asana Project
+🧩 Generate / Update Asana Project
+        │
+        ▼
+🧩 Async Read Asana Execution State
         │
         ▼
 🧠 AI Judgment Review
         │
         ▼
-🐶 ROOFUS Watchdog Check
+🐶 Internal AI Watchdog Protocol Check
         │
         ▼
-⚙︎ Execute Tasks
+🦁 Lionheart Integrity Gate
+        │
+        ▼
+🧩 Async Update Asana Tasks / Sections / Status Fields
         │
         ▼
 🪬 Big Brother Drift Audit
+        │
+        ▼
+🧾 Commit + Asana Update Ledger
+        │
+        ▼
+🪞 OneDrive Sealed Mirror
         │
         ▼
 ✓ Architectural Validation
@@ -198,11 +237,19 @@ The project is complete only when:
 
 ⚛︎ The GitHub Blueprint is the canonical architectural definition of the project.
 
-🧩 Asana serves as the execution layer generated from the blueprint.
+🧩 Asana serves as the live execution mirror generated from the blueprint and updated asynchronously.
+
+🧩 Asana is not the source of architectural truth. It is an operational state surface.
+
+🧩 Asana may be read asynchronously to detect execution progress, task changes, missing tasks, section drift, status mismatch, assignment changes, and completion state.
+
+🧩 Asana may be updated asynchronously only when the update is derived from the canonical GitHub blueprint or from an approved Lionheart recovery action.
 
 🪬 Big Brother continuously compares the live execution state against the blueprint and reports architectural drift.
 
-🐶 ROOFUS watches AI behavior, reasoning claims, reflective judgment, and AI-generated recommendations for unsupported confidence, canon conflict, unsafe execution pressure, or boundary confusion.
+🐶 The internal AI Watchdog Protocol reviews AI behavior, reasoning claims, reflective judgment, and AI-generated recommendations for unsupported confidence, canon conflict, unsafe execution pressure, or boundary confusion.
+
+🪞 OneDrive serves as the sealed mirror record for validated files and change ledgers.
 
 📚 Changes to project architecture originate in the GitHub blueprint and propagate downstream to execution artifacts.
 
@@ -210,13 +257,13 @@ The project is complete only when:
 
 🦁 Lionheart enforces integrity boundaries.
 
-🐶 ROOFUS challenges the AI layer before Lionheart trusts AI-derived judgment.
+🐶 The internal AI Watchdog Protocol challenges the AI layer before Lionheart trusts AI-derived judgment.
 
 ---
 
 ## 🦁 Lionheart Enforcement Doctrine
 
-Lionheart protects the ecosystem by asking five integrity questions before execution, promotion, or publication:
+Lionheart protects the ecosystem by asking five integrity questions before execution, promotion, publication, or execution-state update:
 
 1. 🪪 **Identity:** Is this object what it claims to be?
 2. ⚛︎ **Canon:** Does this match the authoritative architecture?
@@ -227,7 +274,8 @@ Lionheart protects the ecosystem by asking five integrity questions before execu
 If any answer fails, Lionheart must route the failure to the correct recovery path:
 
 - ✕ → 🪬 Big Brother report
-- ✕ → 🐶 ROOFUS AI watchdog review
+- ✕ → 🐶 Internal AI watchdog protocol review
+- ✕ → 🧩 Asana sync quarantine
 - ✕ → 🔬 Lab validation loop
 - ✕ → 📝 Notebook rewrite loop
 - ✕ → ⚙︎ Engine capability correction
@@ -235,13 +283,65 @@ If any answer fails, Lionheart must route the failure to the correct recovery pa
 
 ---
 
-## 🐶 ROOFUS AI Watchdog Doctrine
+## 🧩 Asana Async Execution Mirror Doctrine
 
-ROOFUS exists to watch the watcher inside AI-supported workflows.
+Asana must be treated as a live execution mirror, not as static project output.
 
-AI can question, but AI can also overreach. ROOFUS protects the ecosystem from unverified AI certainty, hidden assumption drift, hallucinated authority, prompt confusion, unsafe obedience, and misplaced confidence.
+The Asana Async Execution Mirror performs four jobs:
 
-ROOFUS asks seven watchdog questions before AI reasoning is trusted for execution, promotion, publication, or architectural change:
+1. 🧩 **Read:** Pull live Asana project, section, task, assignee, due date, completion, dependency, and status information.
+2. 🪞 **Compare:** Compare Asana state against the GitHub blueprint and required deliverables.
+3. 🦁 **Gate:** Route proposed changes through Lionheart before modifying Asana.
+4. 🧾 **Record:** Write a ledger entry describing what changed, why it changed, and which commit or validation event authorized the update.
+
+Asana read events may be triggered by:
+
+- 🧩 Asana webhook event
+- 🕒 Scheduled polling fallback
+- 🔁 GitHub commit event
+- 🪬 Big Brother drift audit
+- 🦁 Lionheart validation request
+- 🧠 AI judgment review request
+
+Asana update events may include:
+
+- Create missing task from blueprint
+- Move task to correct section
+- Update task name or notes from canonical blueprint
+- Add or remove dependency marker
+- Update status custom field
+- Add audit comment linking to GitHub commit
+- Mark task blocked when Lionheart blocks promotion
+- Mark task ready when completion gate passes
+
+Asana must not overwrite GitHub canon.
+
+If Asana changes conflict with GitHub canon, the conflict is drift. Drift must be reported to Big Brother and routed through Lionheart before any correction is applied.
+
+---
+
+## 🐶 Internal AI Watchdog Protocol
+
+**ROOFUS** is retained only as an internal codename for this protocol/framework.
+
+Public-facing naming is deferred pending trademark clearance.
+
+Working expansion: **Response Operating Off/On Functional User Systems**.
+
+The protocol exists to watch the watcher inside AI-supported workflows.
+
+The expansion encodes its internal job:
+
+- **Response** — examines AI responses before they become trusted system input.
+- **Operating** — evaluates whether the AI is acting within the correct operating layer.
+- **Off/On** — detects whether a system, instruction, or reasoning path should be blocked, paused, cleared, or activated.
+- **Functional** — checks whether the AI output is usable, coherent, bounded, and aligned with the intended function.
+- **User** — protects the human-facing consequences of AI judgment.
+- **Systems** — watches AI behavior across connected ecosystem systems, not just isolated prompts.
+
+AI can question, but AI can also overreach. The internal AI Watchdog Protocol protects the ecosystem from unverified AI certainty, hidden assumption drift, hallucinated authority, prompt confusion, unsafe obedience, and misplaced confidence.
+
+The protocol asks seven watchdog questions before AI reasoning is trusted for execution, promotion, publication, or architectural change:
 
 1. 🧠 **Reasoning:** Did the AI explain enough of its reasoning to validate the recommendation?
 2. ⚛︎ **Authority:** Is the AI relying on canon, or inventing authority?
@@ -249,17 +349,18 @@ ROOFUS asks seven watchdog questions before AI reasoning is trusted for executio
 4. 🧩 **Assumptions:** Are assumptions labeled instead of treated as facts?
 5. 🚧 **Boundary:** Is the AI trying to execute where it should only advise?
 6. ❤︎ **Human Impact:** Could this affect identity, money, publication, access, legal position, or public trust?
-7. 🐶 **Watchdog State:** Should ROOFUS bark, block, escalate, or clear?
+7. 🐶 **Watchdog State:** Should the protocol clear, question, bark, escalate, or block?
 
-ROOFUS does not replace Lionheart.
+The internal AI Watchdog Protocol does not replace Lionheart.
 
 - 🦁 Lionheart enforces architectural integrity.
 - 🪬 Big Brother observes ecosystem health and drift.
-- 🐶 ROOFUS watches AI behavior and reflective judgment quality.
+- 🐶 The internal AI Watchdog Protocol reviews AI behavior and reflective judgment quality.
+- 🧩 Asana reflects execution state.
 - ⚙︎ DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ implements capability definitions.
 - ◉ Runtime assets execute only after the correct gates pass.
 
-ROOFUS states:
+Protocol states:
 
 - 🐶✓ **Clear:** AI reasoning appears aligned, bounded, and sufficiently supported.
 - 🐶❓ **Question:** AI reasoning contains uncertainty, missing context, or unresolved assumptions.
@@ -288,7 +389,7 @@ Therefore, Lionheart must never treat AI as a simple automation layer.
 
 AI is a reflective integrity participant inside the ecosystem. It does not merely execute tasks; it evaluates whether execution preserves truth, boundary, authority, and purpose.
 
-🐶 ROOFUS exists because reflective judgment also needs a watchdog. AI can question execution, but ROOFUS questions the AI.
+🐶 The internal AI Watchdog Protocol exists because reflective judgment also needs a review framework. AI can question execution, but watchdog protocols question the AI.
 
 ---
 
@@ -303,7 +404,10 @@ Downstream systems may parse glyphs to infer:
 - ⚛︎ Authority level
 - ⚙︎ Runtime responsibility
 - 🪬 Observation requirement
-- 🐶 AI watchdog requirement
+- 🐶 Internal AI watchdog protocol requirement
+- 🧩 Asana execution mirror requirement
+- 🪞 Mirror / reflection requirement
+- 🧾 Ledger requirement
 - ✓ Validation state
 - ✕ Blocked or failed state
 - ☸︎ Routing bridge behavior
@@ -317,7 +421,9 @@ Downstream systems may parse glyphs to infer:
 **Operating Layer:** DrMarchand’s ∞ OS™  
 **Runtime:** DrMarchand’s ⚙︎ Nɛuro-Forge Engine™  
 **Integrity Authority:** 🦁 Lionheart Core  
-**AI Watchdog Layer:** 🐶 ROOFUS  
+**Internal Protocol:** 🐶 AI Watchdog Protocol, codename ROOFUS  
+**Execution Mirror:** 🧩 Asana Async Execution Mirror  
+**Sealed Mirror:** 🪞 Microsoft OneDrive Mirror Protocol  
 **Observation Layer:** 🪬 Big Brother  
 **Canon Layer:** 📚 DrMarchand’s ⚛︎ Library™  
 **Status:** 🧪 Alpha Development
