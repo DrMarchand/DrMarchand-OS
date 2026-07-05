@@ -4,6 +4,7 @@ Status: Canonical concept
 Registry path: `registry/concepts/neuro-forge-engine.md`
 System: DrMarchand-OS™
 Canonical public phrasing: DrMarchand's ⚙︎ Nɛuro-Forge Engine™
+Canonical internal shorthand: ⚙︎ Nɛuro-Forge Engine™
 
 ---
 
@@ -23,13 +24,22 @@ The canonical public phrasing is:
 DrMarchand's ⚙︎ Nɛuro-Forge Engine™
 ```
 
-Internal short form may use:
+The approved internal shorthand is:
 
 ```text
 ⚙︎ Nɛuro-Forge Engine™
 ```
 
-Do not use non-canonical standalone forms when referring to the public system identity.
+The following forms are forbidden outside explicit historical, diagnostic, or correction contexts:
+
+```text
+Neuro-Forge
+Nɛuro-Forge
+Neuro-Forge Engine
+Nɛuro-Forge Engine
+```
+
+The name must not be reduced to the forge term without the Engine identity. The word `Engine` is required, and public references must preserve the DrMarchand's prefix, gear mark, `ɛ`, hyphenation, and trademark mark.
 
 ---
 
