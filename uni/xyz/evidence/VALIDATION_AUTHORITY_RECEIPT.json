@@ -1,0 +1,19 @@
+{
+  "id": "authority:72d0ef3e31dad1862f4dd4dc",
+  "kind": "AUTHORITY",
+  "observed_at": "2026-07-14T22:00:00.000Z",
+  "payload": {
+    "artifact_sha256": "fa30444f1d79fb9a39a1cf3b16f35523341d6480eabfacf93fd7c578104a790c",
+    "authorized_by": "JK Marchand",
+    "decision": "AUTHORIZE_VALIDATION",
+    "legal_authority": "Design Orchard LLC",
+    "scope": "Execute the full UNI.XYZ validation workflow; canonical promotion remains conditional on every gate.",
+    "source_directive": "Run it all"
+  },
+  "sha256": "72d0ef3e31dad1862f4dd4dce229e089e502ae51584aef8f12519494f67495ed",
+  "authorized_by": "JK Marchand",
+  "legal_authority": "Design Orchard LLC",
+  "decision": "AUTHORIZE_VALIDATION",
+  "scope": "Execute full validation; do not claim canonical promotion while any gate is blocked.",
+  "artifact_sha256": "fa30444f1d79fb9a39a1cf3b16f35523341d6480eabfacf93fd7c578104a790c"
+}
