@@ -3,7 +3,7 @@
   "generated_at": "2026-07-14T22:00:00.000Z",
   "lifecycle_status": "VALIDATION",
   "promotion_disposition": "HOLD",
-  "artifact_sha256": "fa30444f1d79fb9a39a1cf3b16f35523341d6480eabfacf93fd7c578104a790c",
+  "artifact_sha256": "7e66b30a5c23122397dab6f8ef333898c9918a2785d257eb53acd065df9e865f",
   "validation_transition": {
     "id": "lifecycle_transition:5473ce23df61fd00021113f2",
     "kind": "LIFECYCLE_TRANSITION",
@@ -633,12 +633,12 @@
     {
       "system": "ASANA",
       "status": "BLOCKED",
-      "observation": "Task 1216474867011941 returned Not Authorized."
+      "observation": "Private promotion task returned Not Authorized for the connected identity."
     },
     {
       "system": "HUBSPOT",
       "status": "BLOCKED",
-      "observation": "Expected portal 244270437; connected portal 245440740; reauthorization required."
+      "observation": "Intended and connected portals do not match; reauthorization is required."
     },
     {
       "system": "ICLOUD",
