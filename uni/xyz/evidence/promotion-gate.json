@@ -22,12 +22,12 @@
     {
       "system": "ASANA",
       "status": "BLOCKED",
-      "observation": "Task 1216474867011941 returned Not Authorized."
+      "observation": "Private promotion task returned Not Authorized for the connected identity."
     },
     {
       "system": "HUBSPOT",
       "status": "BLOCKED",
-      "observation": "Expected portal 244270437; connected portal 245440740; reauthorization required."
+      "observation": "Intended and connected portals do not match; reauthorization is required."
     },
     {
       "system": "ICLOUD",
