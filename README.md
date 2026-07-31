@@ -1,140 +1,79 @@
-# DrMarchand's ∞ OS™
+# DrMarchand’s ∞ OS™
 
-DrMarchand's ∞ OS™ is the operating framework that defines how the DrMarchand ecosystem is organized, governed, routed, versioned, preserved, and recalled.
+> The public presentation, navigation, and interaction layer for the Design Orchard ecosystem.
 
-**Authority:** © Design Orchard LLC  
-**Public Ecosystem:** 🌴 Design Orchard™  
-**Canonical Owner Mark:** © DrMarchand's  
-**Implementation Pair:** DrMarchand's ⚙︎ Nɛuro-Forge Engine™
+## Purpose
 
----
+DrMarchand’s ∞ OS™ presents registered state, exposes navigable relationships, and routes authorized user intent toward bounded execution. It does not create legal authority, decide truth, or execute work independently.
 
-## Core Pair
+## Registry model
 
-DrMarchand's ∞ OS™ decides where everything belongs.  
-DrMarchand's ⚙︎ Nɛuro-Forge Engine™ makes it real.
+The operating boundary assigns one responsibility to each registered layer.
 
-```txt
-∞ OS™ = governance, identity, routing, lifecycle, provenance
-Engine™ = build, validate, compile, automate, deploy
+| Layer | Responsibility |
+|---|---|
+| `Design Orchard LLC` and authorized human | Legal authority, delegation, approval, and final validation |
+| `🔬 DrMarchand’s Lab⚛︎ratory™` | Delegated research and build context |
+| `DrMarchand’s ⚙︎ Nɛuro-Forge Engine™` | Bounded execution, automation, and validation |
+| `🗺️ DrMarchand’s ⚛︎ Atlas` | Registered identity, relationship, and truth-state resolution |
+| `DrMarchand’s ∞ OS™` | Presentation, navigation, and interaction |
+| `📚 DrMarchand’s ⚛︎ Library™` | Permanent institutional record and custody |
+
+```mermaid
+flowchart TD
+    A["Design Orchard LLC / authorized human"] --> B["🔬 DrMarchand’s Lab⚛︎ratory™"]
+    B --> C["DrMarchand’s ⚙︎ Nɛuro-Forge Engine™"]
+    C --> D["🗺️ DrMarchand’s ⚛︎ Atlas"]
+    D --> E["DrMarchand’s ∞ OS™"]
+    E --> F["📚 DrMarchand’s ⚛︎ Library™"]
+    F --> G["Authorized-human validation"]
 ```
 
----
+## Repository map
 
-## Coordinates
+| Surface | Purpose | Evidence |
+|---|---|---|
+| Architecture registry | Defines current responsibility and boundary language | [`registry/CORE_ARCHITECTURE.md`](registry/CORE_ARCHITECTURE.md) |
+| Ecosystem map | Places the operating and creative namespaces | [`docs/canon/ecosystem-map.md`](docs/canon/ecosystem-map.md) |
+| Atlas schema and seed | Defines versioned graph, infrastructure, binding, and truth-state records | [`schemas/mysql/neuro_forge_engine/2026_07_05_atlas_runtime_seed.sql`](schemas/mysql/neuro_forge_engine/2026_07_05_atlas_runtime_seed.sql) |
 
-The current ecosystem coordinates:
+The SQL seed is a versioned technical artifact. Its presence—and the presence of database rows—does not by itself prove that a deployment is reachable, current, healthy, or authorized.
 
-- 🔬 DrMarchand's Lab⚛︎ratory™
-- ⚙︎ DrMarchand's Nɛuro-Forge Engine™
-- 📚 DrMarchand's ⚛︎ Library™
-- 📚 Bookshelf
-- 🌀 Labyrinth
-- 🔐 Vault
-- 🪑 DrMarchand's ⎈ Workbench™
-- ⑁ DrMarchand's ⎈ Workbench™
-- Atlas
-- Phoenix
-- Panther
-- Timberwolf
-- Sabertooth
-- Echo
-- Big Brother
+## Allowed behavior
 
----
+DrMarchand’s ∞ OS™ may:
 
-## Workbench Rule
+- present state registered through 🗺️ DrMarchand’s ⚛︎ Atlas;
+- visualize lifecycle, evidence, and validation status;
+- accept authorized user interaction;
+- route requests toward DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ through explicit interfaces;
+- display observations from 🪬 Big Brother without converting them into authority.
 
-There is no single generic Workbench.
+DrMarchand’s ∞ OS™ must not:
 
-```txt
-📚 DrMarchand's ⚛︎ Library™ → 🪑 DrMarchand's ⎈ Workbench™
-🔬 DrMarchand's Lab⚛︎ratory™ → ⑁ DrMarchand's ⎈ Workbench™
-```
+- declare itself the legal, organizational, execution, or truth authority;
+- execute deployments, mutations, or approvals by presentation alone;
+- overwrite permanent Library records;
+- treat a schema, seed, screenshot, or successful command as broader runtime proof;
+- absorb an external Bridge into the Engine or carry authority across it.
 
-The Library Workbench handles knowledge review, curation, publication preparation, and recall.
+## Public build family
 
-The Laboratory Workbench handles build, prototype, compile, test, validate, package, and release.
+The public build is:
 
----
+`DrMarchand’s ∞ OS™ [Lionheart, Phoenix, Panther, Timberwolf, Sabertooth]`
 
-## Laboratory / Library / Vault
+The private `♾️ OS™` build and its Guardian family are separate and are not aliases for this public build.
 
-The Labyrinth connects the three.
+## Validation and evidence
 
-```txt
-🔬 Laboratory
-      ▲
-      │
-🌀 Labyrinth
-   ╱     ╲
-  ▼       ▼
-📚 Library  🔐 Vault
-```
+This repository currently exposes architecture records and SQL artifacts. No root package manifest or verified application startup command was observed during the July 2026 inspection, so this README does not claim a runnable OS deployment.
 
-The Laboratory creates.  
-The Library finalizes and preserves.  
-The Vault protects high-authority assets.  
-The Labyrinth controls navigation, lineage, recall, and relationship routing.
+GitHub preserves versioned engineering artifacts. 🗺️ DrMarchand’s ⚛︎ Atlas resolves registered truth. 📚 DrMarchand’s ⚛︎ Library™ preserves approved records. Authorized-human validation closes the gate.
 
-Recall creates a working instance. It does not overwrite the archived record.
+## Authority
 
----
+Legal authority: `Design Orchard LLC`  
+Copyright attribution: `© Design Orchard LLC`
 
-## Bookshelf
-
-BOOKSHELF is not the Library.
-
-BOOKSHELF is the Library's catalog and organizational infrastructure: catalog, indexing, shelf keys, references, provenance, and vault references.
-
----
-
-## Atlas Family
-
-Atlas is primarily Laboratory. It is the mountain of code that makes the virtual Laboratory possible.
-
-- Atlas: runtime mountain, code topology, navigation, relationship mapping.
-- Phoenix: recovery and connector-health system flying around Atlas.
-- Sabertooth: mountain defense and final boundary guard.
-- Panther: jungle security and stealth boundary intelligence.
-- Timberwolf: forest coordination and mobile workflow routing.
-- Echo: Discord bot-template framework and version-bot forge.
-- Big Brother: observation, status, diagnostics, and alerts.
-
----
-
-## Commercial Status
-
-Framework systems are free operational frameworks unless separately approved otherwise.
-
-```txt
-Framework Type: Free Operational Framework
-Commercial Status: Not For Sale
-Purchase Surface: None
-Authority: © Design Orchard LLC
-```
-
-Services and products route through the proper division:
-
-- 🎥 KEJ Studio℠ / 🎬 KEJ Studio™: creative services and creative products.
-- 🔬 DrMarchand's Lab⚛︎ratory™: software products and technical implementations.
-
----
-
-## Canon
-
-See the current full topology:
-
-- [`docs/canon/ecosystem-map.md`](docs/canon/ecosystem-map.md)
-
----
-
-## Ledger Model
-
-The system follows append-only memory principles:
-
-```txt
-OBSERVE → MUTATE → DERIVE → SEAL → RECORD → RECUR
-```
-
-Git history is treated as a runtime ledger. The repository preserves the reason work happened, not only the resulting files.
+External services connect through explicit Bridges. A Bridge does not transfer authority, merge namespaces, or become an internal Engine component.
