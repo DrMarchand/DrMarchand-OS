@@ -1,107 +1,55 @@
-# DrMarchand-OS™ Core Architecture
+# DrMarchand’s ∞ OS™ — Core Architecture
 
-Status: Canonical foundation
-Repository: DrMarchand/DrMarchand-OS
-System: DrMarchand's ∞ OS™
-Legal authority: © Design Orchard LLC
-Public ecosystem: 🌴 Design Orchard™
-Maintainer: DrMarchand's Lab⚛︎ratory™
+**Status:** Current architecture record  
+**Audience:** Public and cross-system  
+**Legal authority:** Design Orchard LLC  
+**Operational context:** 🔬 DrMarchand’s Lab⚛︎ratory™
 
----
+## Repository responsibility
 
-## Purpose
+`DrMarchand/DrMarchand-OS` preserves versioned architecture, presentation-layer definitions, registry documentation, and Atlas-oriented SQL artifacts for DrMarchand’s ∞ OS™.
 
-DrMarchand-OS™ is the core engine repository for DrMarchand's ∞ OS™.
+This repository is not:
 
-This repository is not only a website, dashboard, or application shell. It is the canonical engine-core repository where system meaning, relationships, registry definitions, and runtime architecture are defined before they are implemented elsewhere.
+- the legal authority;
+- DrMarchand’s ⚙︎ Nɛuro-Forge Engine™;
+- 🗺️ DrMarchand’s ⚛︎ Atlas itself;
+- proof that a runtime is deployed or healthy;
+- the permanent institutional record.
 
-The Registry is the institutional memory of DrMarchand-OS™. README files, license text, code, bridges, runtime interfaces, and future documentation should reference the Registry instead of redefining concepts independently.
+## Responsibility model
 
----
+| Surface | May do | Must not be treated as |
+|---|---|---|
+| `Design Orchard LLC` and authorized human | Delegate, approve, reject, and validate final state | An automated or optional gate |
+| `🔬 DrMarchand’s Lab⚛︎ratory™` | Supply delegated operating context | A separate legal authority |
+| `DrMarchand’s ⚙︎ Nɛuro-Forge Engine™` | Execute and validate within bounded permission | Independently sovereign or self-authorizing |
+| `🗺️ DrMarchand’s ⚛︎ Atlas` | Register objects and resolve relationships and truth states | Legal ownership or organizational authority |
+| `DrMarchand’s ∞ OS™` | Present, navigate, and route interaction | The execution runtime or truth resolver |
+| `📚 DrMarchand’s ⚛︎ Library™` | Preserve approved records and institutional memory | Temporary working memory |
 
-## Authority Stack
+## Repository surfaces
 
-```text
-© Design Orchard LLC
-        ↓
-🌴 Design Orchard™
-        ↓
-DrMarchand's Lab⚛︎ratory™
-        ↓
-DrMarchand-OS™
-        ↓
-Registry / UNI / Atlas / Flywheel / Workbench / Bridges
-```
+| Surface | Responsibility |
+|---|---|
+| [`registry/`](.) | Versioned architecture and relationship documentation |
+| [`../docs/canon/ecosystem-map.md`](../docs/canon/ecosystem-map.md) | Namespace and system placement |
+| [`../schemas/mysql/neuro_forge_engine/2026_07_05_atlas_runtime_seed.sql`](../schemas/mysql/neuro_forge_engine/2026_07_05_atlas_runtime_seed.sql) | Database schema and seed definitions using compatibility machine identifiers |
 
-- © Design Orchard LLC is the legal authority.
-- 🌴 Design Orchard™ is the public ecosystem identity.
-- DrMarchand's Lab⚛︎ratory™ is the maintainer and system steward.
-- DrMarchand-OS™ is the core engine repository.
+## Truth and evidence
 
----
+- 🗺️ DrMarchand’s ⚛︎ Atlas resolves registered object identity, relationships, bindings, and truth states.
+- GitHub preserves versioned engineering artifacts and their change history.
+- A database row proves recorded state only; it does not prove current external-system health.
+- 📚 DrMarchand’s ⚛︎ Library™ is the permanent custody destination for approved institutional records.
+- An authorized human performs final validation.
 
-## Core Relationship
+## Bridge boundary
 
-```text
-DrMarchand-OS™
-        ├── Registry
-        ├── UNI
-        ├── Atlas
-        ├── Flywheel
-        ├── Workbench
-        ├── Bridges
-        └── DrMarchand's ⚙︎ Nɛuro-Forge Engine™
-```
+Every external crossing must identify its source, target, direction, payload, requesting authority, execution permission, validation, failure behavior, receipt, and custody destination.
 
-The Registry defines meaning.
-UNI provides foundational gear logic.
-Atlas maps relationships and coordinates.
-The Flywheel manages motion, redirection, and continuity.
-The Workbench prepares and validates working forms.
-Bridges translate between internal systems and external platforms.
-DrMarchand's ⚙︎ Nɛuro-Forge Engine™ compiles, validates, and prepares executable system definitions.
+Bridges remain external interfaces even when DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ invokes or validates them. A Bridge does not own an internal system or carry authority across the boundary.
 
----
+## Compatibility boundary
 
-## Source of Truth Rule
-
-```text
-Registry = source of truth for meaning
-Database = source of truth for runtime data
-Code = implementation of behavior
-GitHub = source of truth for versioned engineering artifacts
-```
-
-Concepts must be defined once in the Registry and referenced elsewhere.
-
----
-
-## Bridge Boundary Rule
-
-External services, platforms, APIs, connectors, and integrations are not part of the engine directly.
-
-All communication between DrMarchand's Lab⚛︎ratory™ systems and third-party platforms must pass through a dedicated bridge interface. External systems must not be represented as owning or defining the internal authority, Registry, runtime, or Atlas structure.
-
----
-
-## Registry Spine
-
-```text
-registry/
-├── CORE_ARCHITECTURE.md
-├── concepts/
-│   ├── orchard.md
-│   ├── laboratory.md
-│   ├── drmarchand-os.md
-│   ├── uni.md
-│   ├── atlas.md
-│   ├── flywheel.md
-│   ├── workbench.md
-│   ├── bridges.md
-│   └── neuro-forge-engine.md
-├── glossary.md
-├── decisions.md
-└── relationships.md
-```
-
-This file anchors the canonical Registry structure for DrMarchand-OS™.
+Repository paths, database names such as `Neuro-Forge_Engine`, node keys, route names, package names, and environment variables are machine identifiers. Preserve them until an evidenced migration identifies consumers, rollback behavior, and validation.
