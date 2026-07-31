@@ -2,7 +2,7 @@
 -- Atlas runtime seed
 -- Target database: Neuro-Forge_Engine
 -- Purpose: create/populate Atlas nodes, Atlas edges, runtime infrastructure references, and verification records.
--- Safety: idempotent where possible. Does not store passwords, tokens, API keys, SSH keys, or recovery codes.
+-- Safety: idempotent where possible. The public seed omits operational endpoints, account identifiers, filesystem paths, and credential-location metadata.
 
 USE `Neuro-Forge_Engine`;
 
@@ -98,22 +98,21 @@ CREATE TABLE IF NOT EXISTS nfe_truth_states (
 );
 
 -- -----------------------------------------------------------------------------
--- 3. Infrastructure assets from cPanel evidence
+-- 3. Public infrastructure asset identities
 -- -----------------------------------------------------------------------------
+-- Operational endpoints, hosting-account identifiers, filesystem paths, and
+-- credential-location metadata belong in a private runtime configuration or
+-- approved secret-management system. This public seed registers only the
+-- non-secret identity of each asset and never overwrites private runtime fields.
 
 INSERT INTO infrastructure_assets
-(asset_key, asset_type, provider, domain, server_host, shared_ip, cpanel_user, home_directory, credential_location, ssl_status, status, notes)
+(asset_key, asset_type, provider, domain, credential_location, ssl_status, status, notes)
 VALUES
-('hosting_designorchard_net', 'cpanel_hosting', 'GoDaddy cPanel', 'designorchard.net', 'secureserver.net', '132.148.176.255', 'cx1vycihumh7', '/home/cx1vycihumh7', 'Password Vault > Design Orchard LLC > cPanel - designorchard.net', 'self_signed_needs_replacement', 'active', 'Primary Design Orchard hosting account. Do not store password in database.'),
-('hosting_kejstudio_com', 'cpanel_hosting', 'GoDaddy cPanel', 'kejstudio.com', 'secureserver.net', '132.148.179.19', 'mucbfl83wr27', '/home/mucbfl83wr27', 'Password Vault > Design Orchard LLC > cPanel - kejstudio.com', 'self_signed_needs_replacement', 'active', 'KEJ Studio hosting account. Do not store password in database.')
+('hosting_designorchard_net', 'cpanel_hosting', 'GoDaddy cPanel', 'designorchard.net', 'managed_outside_repository', 'unverified', 'active', 'Operational hosting metadata intentionally excluded from the public seed.'),
+('hosting_kejstudio_com', 'cpanel_hosting', 'GoDaddy cPanel', 'kejstudio.com', 'managed_outside_repository', 'unverified', 'active', 'Operational hosting metadata intentionally excluded from the public seed.')
 ON DUPLICATE KEY UPDATE
 provider = VALUES(provider),
 domain = VALUES(domain),
-server_host = VALUES(server_host),
-shared_ip = VALUES(shared_ip),
-cpanel_user = VALUES(cpanel_user),
-home_directory = VALUES(home_directory),
-credential_location = VALUES(credential_location),
 ssl_status = VALUES(ssl_status),
 status = VALUES(status),
 notes = VALUES(notes);
@@ -299,7 +298,7 @@ VALUES
 ('atlas_edges', 'table', 'observed', 'manual_phpmyadmin_screenshot', 'Atlas edges table created in Neuro-Forge_Engine.'),
 ('github_repo_drmarchand_os', 'repository', 'observed', 'GitHub connector', 'Repository DrMarchand/DrMarchand-OS exists and contains registry/CORE_ARCHITECTURE.md.'),
 ('google_drive_pressure_test_layer', 'documentation_bridge', 'observed', 'Google Drive connector', 'Drive milestone identifies Google Drive Documentation and Pressure-Test Bridge.'),
-('hosting_designorchard_net', 'infrastructure_asset', 'observed', 'manual_cpanel_screenshot', 'cPanel hosting metadata recorded. Password excluded.'),
+('hosting_designorchard_net', 'infrastructure_asset', 'observed', 'manual_cpanel_screenshot', 'Public seed records the asset identity only; operational metadata is managed outside the repository.'),
 ('hosting_kejstudio_com', 'infrastructure_asset', 'observed', 'manual_cpanel_screenshot', 'cPanel hosting metadata recorded. Password excluded.')
 ON DUPLICATE KEY UPDATE
 truth_state = VALUES(truth_state),
