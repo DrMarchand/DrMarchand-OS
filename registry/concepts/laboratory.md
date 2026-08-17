@@ -1,23 +1,23 @@
-# DrMarchand's Lab⚛︎ratory™
+# 🔬 DrMarchand’s Lab⚛︎ratory™
 
 Status: Canonical concept
 Registry path: `registry/concepts/laboratory.md`
-Authority: © Design Orchard LLC
+Legal authority: Design Orchard LLC
 Maintainer role: System steward
 
 ---
 
 ## Definition
 
-DrMarchand's Lab⚛︎ratory™ is the research, systems, software, validation, experimentation, and architecture division inside the Design Orchard LLC ecosystem.
+🔬 DrMarchand’s Lab⚛︎ratory™ is the research, systems, software, validation, experimentation, and architecture division inside the Design Orchard LLC ecosystem.
 
-It is the maintainer and steward of DrMarchand-OS™.
+It is the maintainer and steward of DrMarchand-OS.
 
 ---
 
 ## Role
 
-DrMarchand's Lab⚛︎ratory™ is responsible for:
+🔬 DrMarchand’s Lab⚛︎ratory™ is responsible for:
 
 - technical architecture
 - system validation
@@ -33,13 +33,13 @@ DrMarchand's Lab⚛︎ratory™ is responsible for:
 ## Relationship
 
 ```text
-© Design Orchard LLC
+Design Orchard LLC
         ↓
 🌴 Design Orchard™
         ↓
-DrMarchand's Lab⚛︎ratory™
+🔬 DrMarchand’s Lab⚛︎ratory™
         ↓
-DrMarchand-OS™
+DrMarchand-OS
 ```
 
 The Laboratory maintains the system. It does not override the legal authority of Design Orchard LLC.
