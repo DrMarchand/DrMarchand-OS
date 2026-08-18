@@ -1,21 +1,21 @@
-# DrMarchand's ∞ OS™
+# DrMarchand’s ∞ OS™
 
-DrMarchand's ∞ OS™ is the operating framework that defines how the DrMarchand ecosystem is organized, governed, routed, versioned, preserved, and recalled.
+DrMarchand’s ∞ OS™ is the operating framework that defines how the DrMarchand ecosystem is organized, governed, routed, versioned, preserved, and recalled.
 
-**Authority:** © Design Orchard LLC  
+**Legal authority:** Design Orchard LLC  
 **Public Ecosystem:** 🌴 Design Orchard™  
-**Canonical Owner Mark:** © DrMarchand's  
-**Implementation Pair:** DrMarchand's ⚙︎ Nɛuro-Forge Engine™
+**Copyright owner:** Joseph Kyle Marchand  
+**Implementation Pair:** DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
 
 ---
 
 ## Core Pair
 
-DrMarchand's ∞ OS™ decides where everything belongs.  
-DrMarchand's ⚙︎ Nɛuro-Forge Engine™ makes it real.
+DrMarchand’s ∞ OS™ presents registered lifecycle, navigation, and routing state.  
+DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ makes it real.
 
 ```txt
-∞ OS™ = governance, identity, routing, lifecycle, provenance
+DrMarchand’s ∞ OS™ = presentation, navigation, routing, lifecycle visualization
 Engine™ = build, validate, compile, automate, deploy
 ```
 
@@ -25,14 +25,14 @@ Engine™ = build, validate, compile, automate, deploy
 
 The current ecosystem coordinates:
 
-- 🔬 DrMarchand's Lab⚛︎ratory™
-- ⚙︎ DrMarchand's Nɛuro-Forge Engine™
-- 📚 DrMarchand's ⚛︎ Library™
+- 🔬 🔬 DrMarchand’s Lab⚛︎ratory™
+- DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
+- 📚 DrMarchand’s ⚛︎ Library™
 - 📚 Bookshelf
 - 🌀 Labyrinth
 - 🔐 Vault
-- 🪑 DrMarchand's ⎈ Workbench™
-- ⑁ DrMarchand's ⎈ Workbench™
+- 🪑 DrMarchand’s ⎈ Workbench™
+- ⑁ DrMarchand’s ⎈ Workbench™
 - Atlas
 - Phoenix
 - Panther
@@ -48,8 +48,8 @@ The current ecosystem coordinates:
 There is no single generic Workbench.
 
 ```txt
-📚 DrMarchand's ⚛︎ Library™ → 🪑 DrMarchand's ⎈ Workbench™
-🔬 DrMarchand's Lab⚛︎ratory™ → ⑁ DrMarchand's ⎈ Workbench™
+📚 DrMarchand’s ⚛︎ Library™ → 🪑 DrMarchand’s ⎈ Workbench™
+🔬 🔬 DrMarchand’s Lab⚛︎ratory™ → ⑁ DrMarchand’s ⎈ Workbench™
 ```
 
 The Library Workbench handles knowledge review, curation, publication preparation, and recall.
@@ -74,7 +74,7 @@ The Labyrinth connects the three.
 
 The Laboratory creates.  
 The Library finalizes and preserves.  
-The Vault protects high-authority assets.  
+The Vault protects access-restricted assets.  
 The Labyrinth controls navigation, lineage, recall, and relationship routing.
 
 Recall creates a working instance. It does not overwrite the archived record.
@@ -91,7 +91,7 @@ BOOKSHELF is the Library's catalog and organizational infrastructure: catalog, i
 
 ## Atlas Family
 
-Atlas is primarily Laboratory. It is the mountain of code that makes the virtual Laboratory possible.
+🗺️ DrMarchand’s ⚛︎ Atlas maps registered objects, relationships, and recorded truth states; it does not hold organizational authority.
 
 - Atlas: runtime mountain, code topology, navigation, relationship mapping.
 - Phoenix: recovery and connector-health system flying around Atlas.
@@ -111,13 +111,13 @@ Framework systems are free operational frameworks unless separately approved oth
 Framework Type: Free Operational Framework
 Commercial Status: Not For Sale
 Purchase Surface: None
-Authority: © Design Orchard LLC
+Legal authority: Design Orchard LLC
 ```
 
 Services and products route through the proper division:
 
 - 🎥 KEJ Studio℠ / 🎬 KEJ Studio™: creative services and creative products.
-- 🔬 DrMarchand's Lab⚛︎ratory™: software products and technical implementations.
+- 🔬 🔬 DrMarchand’s Lab⚛︎ratory™: software products and technical implementations.
 
 ---
 

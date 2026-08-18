@@ -2,7 +2,7 @@
 
 Status: Canonical concept
 Registry path: `registry/concepts/orchard.md`
-Authority: © Design Orchard LLC
+Legal authority: Design Orchard LLC
 Public ecosystem: 🌴 Design Orchard™
 
 ---
@@ -18,14 +18,14 @@ It represents growth, cultivation, public identity, and ecosystem coherence. The
 ## Authority
 
 ```text
-© Design Orchard LLC
+Design Orchard LLC
         ↓
 🌴 Design Orchard™
         ↓
 Orchard ecosystem surface
 ```
 
-© Design Orchard LLC is the legal authority.
+Design Orchard LLC is the legal authority.
 🌴 Design Orchard™ is the public ecosystem identity.
 
 ---
@@ -34,9 +34,9 @@ Orchard ecosystem surface
 
 The Orchard provides the public ecosystem context for:
 
-- DrMarchand's Lab⚛︎ratory™
-- DrMarchand-OS™
-- DrMarchand's ⚙︎ Nɛuro-Forge Engine™
+- 🔬 DrMarchand’s Lab⚛︎ratory™
+- DrMarchand-OS
+- DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
 - Registry-defined concepts
 - Bridge-facing public interfaces
 

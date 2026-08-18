@@ -1,8 +1,8 @@
-# DrMarchand's Ecosystem Map
+# DrMarchand’s Ecosystem Map
 
-**Authority:** © Design Orchard LLC  
+**Legal authority:** Design Orchard LLC  
 **Public Ecosystem:** 🌴 Design Orchard™  
-**Canonical Owner Mark:** © DrMarchand's  
+**Copyright owner:** Joseph Kyle Marchand  
 **Purpose Anchor:** DrMarchand/Purpose  
 **Status:** Canon record for current ecosystem topology
 
@@ -10,11 +10,11 @@
 
 ## Core Rule
 
-DrMarchand's ∞ OS™ decides where everything belongs.  
-DrMarchand's ⚙︎ Nɛuro-Forge Engine™ makes it real.
+DrMarchand’s ∞ OS™ presents registered lifecycle, navigation, and routing state.  
+DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ makes it real.
 
 ```txt
-∞ OS™ = governance, identity, routing, lifecycle, provenance
+DrMarchand’s ∞ OS™ = presentation, navigation, routing, lifecycle visualization
 Engine™ = build, validate, compile, automate, deploy
 ```
 
@@ -28,9 +28,9 @@ External references, public code, documentation, open-source materials, examples
 
 Examples:
 
-- DrMarchand's ⚙︎ Nɛuro-Forge Engine™
-- DrMarchand's ∞ OS™
-- DrMarchand's ♾️ OS™ when referring to the internal/private identity
+- DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
+- DrMarchand’s ∞ OS™
+- ♾️ OS™ (private build) when referring to the internal/private identity
 
 ---
 
@@ -43,13 +43,13 @@ Framework Type: Free Operational Framework
 Commercial Status: Not For Sale
 Purchase Surface: None
 Distribution: Free / open-source capable when approved
-Authority: © Design Orchard LLC
+Legal authority: Design Orchard LLC
 ```
 
 Services and products may be sold through the proper division:
 
 - 🎥 KEJ Studio℠ / 🎬 KEJ Studio™: creative services and creative products
-- 🔬 DrMarchand's Lab⚛︎ratory™: software products and technical implementations
+- 🔬 🔬 DrMarchand’s Lab⚛︎ratory™: software products and technical implementations
 
 ---
 
@@ -62,16 +62,16 @@ Services and products may be sold through the proper division:
 🌴 Design Orchard™
         │
         ▼
-© DrMarchand's
+© DrMarchand’s
         │
-        ├── 🔬 DrMarchand's Lab⚛︎ratory™
-        ├── 📚 DrMarchand's ⚛︎ Library™
-        ├── ⚙︎ DrMarchand's Nɛuro-Forge Engine™
-        ├── ∞ DrMarchand's ∞ OS™
-        ├── DrMarchand's ♾️ OS™
-        ├── 🪑 DrMarchand's ⎈ Workbench™
-        ├── ⑁ DrMarchand's ⎈ Workbench™
-        ├── 📒 DrMarchand's ⚛︎ Notebook™
+        ├── 🔬 🔬 DrMarchand’s Lab⚛︎ratory™
+        ├── 📚 DrMarchand’s ⚛︎ Library™
+        ├── DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
+        ├── ∞ DrMarchand’s ∞ OS™
+        ├── ♾️ OS™ (private build)
+        ├── 🪑 DrMarchand’s ⎈ Workbench™
+        ├── ⑁ DrMarchand’s ⎈ Workbench™
+        ├── 📒 DrMarchand’s ⚛︎ Notebook™
         ├── 🌀 Labyrinth
         ├── 🔐 Vault
         └── Free operational frameworks
@@ -95,8 +95,8 @@ The Labyrinth connects the three major domains. It is not the Library, not the L
 
 ### Domain Functions
 
-- 🔬 DrMarchand's Lab⚛︎ratory™ creates, tests, researches, builds, and experiments.
-- 📚 DrMarchand's ⚛︎ Library™ finalizes, preserves, indexes, and curates knowledge.
+- 🔬 🔬 DrMarchand’s Lab⚛︎ratory™ creates, tests, researches, builds, and experiments.
+- 📚 DrMarchand’s ⚛︎ Library™ finalizes, preserves, indexes, and curates knowledge.
 - 🔐 Vault protects high-authority assets outside the general Library collection.
 - 🌀 Labyrinth controls routing, discovery, relationship mapping, lineage, and recall between all three.
 
@@ -107,8 +107,8 @@ The Labyrinth connects the three major domains. It is not the Library, not the L
 There is no single generic Workbench.
 
 ```txt
-📚 DrMarchand's ⚛︎ Library™ → 🪑 DrMarchand's ⎈ Workbench™
-🔬 DrMarchand's Lab⚛︎ratory™ → ⑁ DrMarchand's ⎈ Workbench™
+📚 DrMarchand’s ⚛︎ Library™ → 🪑 DrMarchand’s ⎈ Workbench™
+🔬 🔬 DrMarchand’s Lab⚛︎ratory™ → ⑁ DrMarchand’s ⎈ Workbench™
 ```
 
 ### 🪑 Library Workbench
@@ -128,7 +128,7 @@ BOOKSHELF is not the Library.
 BOOKSHELF is the Library's catalog and organizational infrastructure.
 
 ```txt
-📚 DrMarchand's ⚛︎ Library™
+📚 DrMarchand’s ⚛︎ Library™
         │
         ├── 📚 Bookshelf
         │      ├── catalog
@@ -183,7 +183,7 @@ Recall is allowed, but recall creates a working instance. It does not overwrite 
 
 ## Atlas System Family
 
-Atlas is primarily Laboratory. It is the mountain of code that makes the virtual Laboratory possible.
+🗺️ DrMarchand’s ⚛︎ Atlas maps registered objects, relationships, and recorded truth states; it does not hold organizational authority.
 
 ```txt
 🌴 Design Orchard™ surrounds the ecosystem
@@ -196,7 +196,7 @@ Atlas is primarily Laboratory. It is the mountain of code that makes the virtual
 🌴 Jungle: Panther
 🌲 Forest: Timberwolf
 
-🔬 Laboratory + ⚙︎ Nɛuro-Forge Engine™ build the gadgets that let Timberwolf travel anywhere
+🔬 DrMarchand’s Lab⚛︎ratory™ supplies working context; DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ executes within delegated permission.
 ```
 
 ### Roles
@@ -213,7 +213,7 @@ Atlas is primarily Laboratory. It is the mountain of code that makes the virtual
 
 ## Echo Scope
 
-Echo is a Discord bot-template framework for DrMarchand's 🎨 Creative Canvas and related Discord environments.
+Echo is a Discord bot-template framework for DrMarchand’s 🎨 Creative Canvas and related Discord environments.
 
 Echo is not:
 
@@ -245,8 +245,8 @@ Google Drive   = build/sync/pressure-test/cloud-local break detection
 GitHub Private = validation, docs, code review, internal consistency checks
 GitHub Public  = release only after validation and approval
 iCloud         = personal/public artifact bridge
-Library        = final canonical knowledge authority
-Vault          = protected archive authority
+Library        = preserved knowledge access and institutional record
+Vault          = access-restricted storage surface
 OneDrive       = sealed finalized published records
 Asana          = execution task layer
 HubSpot        = CRM/entity relationship layer
