@@ -1,146 +1,93 @@
-# DrMarchand’s ∞ OS™
+# DrMarchand’s ∞ OS
 
-DrMarchand’s ∞ OS™ is the operating framework that defines how the ecosystem is organized, governed, routed, versioned, preserved, and recalled.
+> Working public documentation for presentation, navigation, routing, and lifecycle state across the Design Orchard ecosystem.
 
+**Repository identifier:** `DrMarchand/DrMarchand-OS`  
 **Legal authority:** Design Orchard LLC  
-**Service brand:** 🏝️ Design Orchard℠  
-**Copyright owner:** Joseph Kyle Marchand  
-**Internal implementation system:** ⚙︎ Nɛuro-Forge Engine™
+**Copyright owner:** Joseph Kyle Marchand, subject to work-specific records  
+**Naming review:** Public mark claims paused as of August 26, 2026
 
----
+## What this is
 
-## Core Relationship
+DrMarchand’s ∞ OS is a working operating-framework description. It presents relationships, routes interaction, and makes lifecycle state understandable.
 
-DrMarchand’s ∞ OS™ presents registered lifecycle, navigation, routing, and governance state.  
-⚙︎ Nɛuro-Forge Engine™ executes internal Laboratory work within delegated permission.
+It is not:
 
-```text
-DrMarchand’s ∞ OS™ = presentation + navigation + routing + lifecycle state
-⚙︎ Nɛuro-Forge Engine™ = internal build + validate + automate + deploy + trade execution
-```
+- the legal owner of the ecosystem;
+- the private execution runtime;
+- a substitute for registry evidence;
+- proof that a referenced service is deployed;
+- a trademark-registration record.
 
-The Engine is not a public Design Orchard service surface.
+## Authority and operating lanes
 
----
+| Surface | Current role |
+|---|---|
+| **Design Orchard LLC** | Florida legal and operating company; organizational authority |
+| **KEJ Studio** | Florida creative DBA/division owned and operated by Design Orchard LLC |
+| **DrMarchand’s Laboratory** | Technical DBA and working research/build environment |
+| **DrMarchand’s Library** | Preservation-oriented records and retrieval lane |
+| **DrMarchand’s ∞ OS** | Public presentation, navigation, routing, and lifecycle framework |
+| **Private execution system** | Internal build, validation, automation, and orchestration; public name unresolved |
 
-## Trade / Service Rule
-
-A capability or trade remains internal while it is performed for the ecosystem itself.
-
-When that trade is supplied to another party, it becomes a **service being performed** and must route through the appropriate Design Orchard brand, scope, authority, and commercial record.
-
-```text
-internal trade
-    ↓ external supply
-service
-    ↓
-appropriate brand / agreement / record
-```
-
-A service does not automatically become a separately marked brand. `™` and `℠` are applied only to governed identities or deliberately branded products/services.
-
----
-
-## Coordinates
-
-- 🔬 DrMarchand’s Lab⚛︎ratory™
-- ⚙︎ Nɛuro-Forge Engine™ — internal Laboratory system
-- 📚 DrMarchand’s ⚛︎ Library™
-- KEJ Studio™
-- Bookshelf
-- Labyrinth
-- Vault
-- Library Workbench
-- Laboratory Workbench
-- Atlas
-- Phoenix
-- Panther
-- Timberwolf
-- Sabertooth
-- Echo
-- Big Brother
-
----
-
-## Workbench Rule
-
-Workbench is an operational component, not automatically a separate trademark identity.
+## Execution boundary
 
 ```text
-📚 DrMarchand’s ⚛︎ Library™ → Library Workbench
-🔬 DrMarchand’s Lab⚛︎ratory™ → Laboratory Workbench
+Design Orchard LLC / authorized human
+        ↓
+DrMarchand’s Laboratory
+        ↓
+private execution and validation
+        ↓
+registered relationships and evidence
+        ↓
+DrMarchand’s ∞ OS presentation
+        ↓
+approved record custody
+        ↓
+authorized-human decision
 ```
 
-The Library Workbench handles knowledge review, curation, publication preparation, and recall.
+The OS presents state. It does not execute work or independently authorize a change.
 
-The Laboratory Workbench handles build, prototype, compile, test, validate, package, and release work.
+## Public version line
 
----
+`Yoruba` is the current first public version name. Existing `Lionheart` references remain historical or superseded provenance unless an active document clearly uses the old name as the current first public version. See [`docs/versions/YORUBA.md`](docs/versions/YORUBA.md).
 
-## Laboratory / Library / Vault
+## Internal codenames and machine identifiers
 
-```text
-🔬 Laboratory
-      ▲
-      │
-🌀 Labyrinth
-   ╱     ╲
-  ▼       ▼
-📚 Library  🔐 Vault
-```
+Names such as `Atlas`, `Watchdog`, `Big Brother`, `Creative Canvas`, `Liquid Logic`, and legacy engine wording are internal codenames, functional labels, or historical identifiers unless a later clearance decision says otherwise.
 
-The Laboratory researches, creates, builds, and tests.  
-The Library finalizes, indexes, preserves, and supports authorized publication.  
-The Vault protects access-restricted assets.  
-The Labyrinth controls navigation, lineage, recall, and relationship routing.
+Current public copy should use functional descriptions such as:
 
-Recall creates a working instance. It does not overwrite the preserved record.
+- registry graph and truth-state resolver;
+- operational interpreter;
+- observation and diagnostics surface;
+- creative working space;
+- internal logic system;
+- private execution system.
 
----
+Repository names, database names, commands, routes, schemas, and file paths remain exact compatibility identifiers. They must not be silently rewritten in code or evidence.
 
-## Bookshelf
+## Repository map
 
-Bookshelf is not the Library. It is Library catalog and organizational infrastructure: catalog, indexing, shelf keys, references, provenance, and vault references.
+| Surface | Purpose |
+|---|---|
+| [`docs/canon/ecosystem-map.md`](docs/canon/ecosystem-map.md) | Current authority, operating-lane, and public/private boundary |
+| [`docs/versions/YORUBA.md`](docs/versions/YORUBA.md) | Current first-public-version decision |
+| [`registry/decisions.md`](registry/decisions.md) | Append-only architectural and naming decisions |
+| [`registry/concepts/`](registry/concepts/) | Working concept records; individual status controls |
+| [`protocols/`](protocols/) | Proposed connection and workflow protocols |
+| [`schemas/`](schemas/) | Compatibility schemas and database identifiers |
+| [`blueprints/`](blueprints/) | Historical or proposed blueprints; not current naming authority |
 
----
+## Public naming boundary
 
-## Atlas Family
+Active public trademark and service-mark claims are paused while clearance and filing strategy are reviewed. Unmarked use does not mean a name is cleared. No federal-registration status is asserted here.
 
-🗺️ DrMarchand’s ⚛︎ Atlas maps registered objects, relationships, and recorded truth states; it does not hold organizational authority.
+Historical records remain in Git history and may remain in explicitly historical files. Active public-facing records should follow the current decision in [`registry/decisions.md`](registry/decisions.md).
 
-- Atlas: runtime topology, navigation, and relationship mapping.
-- Phoenix: recovery and connector-health system.
-- Sabertooth: final boundary guard.
-- Panther: security and stealth boundary intelligence.
-- Timberwolf: coordination and mobile workflow routing.
-- Echo: Discord bot-template framework and version-bot forge.
-- Big Brother: observation, status, diagnostics, and alerts.
+## Validation boundary
 
----
+Documentation proves architecture and intent only. Runtime, deployment, health, receipt, custody, and completion claims require evidence tied to the exact artifact, revision, environment, and authorized-human gate.
 
-## Commercial Routing
-
-Frameworks and internal operational components are not checkout surfaces merely because they perform useful work.
-
-Services and products route through the appropriate governed brand:
-
-- **🏝️ Design Orchard℠** — company-level service identity and routing.
-- **KEJ Studio™** — creative production, design, media, and related services/products.
-- **🔬 DrMarchand’s Lab⚛︎ratory™** — research, software, technical development, implementation, and related services/products.
-- **📚 DrMarchand’s ⚛︎ Library™** — preservation, records, curation, and publication-support functions.
-
-Internal Engine trades become customer-facing services only when supplied externally through an authorized brand and engagement.
-
----
-
-## Canon
-
-See [`docs/canon/ecosystem-map.md`](docs/canon/ecosystem-map.md).
-
-## Ledger Model
-
-```text
-OBSERVE → MUTATE → DERIVE → SEAL → RECORD → RECUR
-```
-
-Git history is treated as a runtime ledger. The repository should preserve why work happened, not only the resulting files.
