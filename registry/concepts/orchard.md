@@ -1,49 +1,31 @@
-# Orchard
+# Design Orchard Ecosystem
 
-Status: Canonical concept
-Registry path: `registry/concepts/orchard.md`
+Status: Working public concept; naming clearance pending  
+Registry path: `registry/concepts/orchard.md`  
 Legal authority: Design Orchard LLC
-Public ecosystem: 🌴 Design Orchard™
-
----
 
 ## Definition
 
-The Orchard is the public ecosystem layer of Design Orchard LLC.
-
-It represents growth, cultivation, public identity, and ecosystem coherence. The Orchard is not a single application, repository, or runtime service. It is the public-facing environment in which the DrMarchand ecosystem can grow while remaining tied to its legal authority.
-
----
+The Design Orchard ecosystem is the public organizational context operated by Design Orchard LLC. It is not a separate legal entity, a single application, a repository, or an execution runtime.
 
 ## Authority
 
 ```text
 Design Orchard LLC
         ↓
-🌴 Design Orchard™
-        ↓
-Orchard ecosystem surface
+public Design Orchard ecosystem
 ```
 
-Design Orchard LLC is the legal authority.
-🌴 Design Orchard™ is the public ecosystem identity.
+Design Orchard LLC holds legal and organizational authority. The ecosystem name does not acquire separate authority by being used in public documentation.
 
----
+## Operating lanes
 
-## System Role
+- KEJ Studio — Florida creative DBA/division owned and operated by Design Orchard LLC
+- DrMarchand’s Laboratory — technical DBA and working environment
+- DrMarchand’s ∞ OS — presentation, navigation, routing, and lifecycle framework
+- private execution system — internal, public name unresolved
 
-The Orchard provides the public ecosystem context for:
+## Naming boundary
 
-- 🔬 DrMarchand’s Lab⚛︎ratory™
-- DrMarchand-OS
-- DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
-- Registry-defined concepts
-- Bridge-facing public interfaces
+Public mark claims are paused as of August 26, 2026. Use unmarked names in active public copy. Preserve machine identifiers and historical records exactly and label their context.
 
----
-
-## Boundary
-
-The Orchard does not replace the Registry, the Laboratory, or the Engine.
-
-The Orchard is the public ecosystem layer. The Registry defines meaning. The Laboratory stewards technical development. The Engine prepares executable system definitions.

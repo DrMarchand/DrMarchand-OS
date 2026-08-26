@@ -1,76 +1,32 @@
-# DrMarchand's ⚙︎ Nɛuro-Forge Engine™
+# Internal Execution Engine
 
-Status: Canonical concept
-Registry path: `registry/concepts/neuro-forge-engine.md`
-System: DrMarchand-OS™
-Canonical public phrasing: DrMarchand's ⚙︎ Nɛuro-Forge Engine™
-Canonical internal shorthand: ⚙︎ Nɛuro-Forge Engine™
-
----
+Status: Internal-only concept; public product name unresolved  
+Naming authority: [`registry/decisions.md`](../decisions.md), Decision 005
 
 ## Definition
 
-DrMarchand's ⚙︎ Nɛuro-Forge Engine™ is the internal systems, automation, validation, documentation, runtime preparation, and infrastructure orchestration engine inside DrMarchand's Lab⚛︎ratory™.
+The internal execution engine performs bounded automation, validation, build preparation, routing, and orchestration within DrMarchand’s Laboratory and delegated permission.
 
-It compiles, validates, prepares, and documents executable system definitions.
+It is not a public Design Orchard service provider, public checkout surface, separate legal authority, or self-authorizing actor.
 
----
+## Compatibility identifiers
 
-## Naming Rule
+Existing strings such as `NFE`, repository names, database names, commands, schemas, routes, and file paths are machine identifiers. Preserve them exactly where compatibility requires them.
 
-The canonical public phrasing is:
+Do not expand or promote those identifiers as a public product or brand name. The former public naming decision is superseded for active public use and remains available in Git history and the decision ledger as provenance.
 
-```text
-DrMarchand's ⚙︎ Nɛuro-Forge Engine™
-```
+## Functional scope
 
-The approved internal shorthand is:
+The internal execution engine may support:
 
-```text
-⚙︎ Nɛuro-Forge Engine™
-```
-
-The following forms are forbidden outside explicit historical, diagnostic, or correction contexts:
-
-```text
-Neuro-Forge
-Nɛuro-Forge
-Neuro-Forge Engine
-Nɛuro-Forge Engine
-```
-
-The name must not be reduced to the forge term without the Engine identity. The word `Engine` is required, and public references must preserve the DrMarchand's prefix, gear mark, `ɛ`, hyphenation, and trademark mark.
-
----
-
-## Role
-
-The Engine supports:
-
-- automation
-- validation
-- system compilation
-- documentation preparation
-- bridge interface preparation
-- runtime definition preparation
-- infrastructure orchestration
-
----
-
-## Relationship
-
-```text
-Registry defines meaning
-Atlas maps relationships
-Flywheel redirects motion
-Workbench prepares forms
-DrMarchand's ⚙︎ Nɛuro-Forge Engine™ compiles and validates executable definitions
-```
-
----
+- automation;
+- validation;
+- build and compilation preparation;
+- documentation preparation;
+- connection-interface preparation;
+- runtime-definition preparation;
+- infrastructure orchestration within permission.
 
 ## Boundary
 
-The Engine is not an external connector and should not communicate directly with third-party platforms.
-
-External platforms connect through bridge interfaces.
+External platforms cross explicit connection interfaces. The engine does not acquire authority by calling them, and they do not become internal components merely because the engine invokes, validates, or monitors a connection.
