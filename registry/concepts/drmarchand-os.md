@@ -1,45 +1,32 @@
-# DrMarchand-OS
+# DrMarchand’s ∞ OS
 
-Status: Canonical concept
-Registry path: `registry/concepts/drmarchand-os.md`
-Repository: DrMarchand/DrMarchand-OS
+Status: Working public concept; naming clearance pending  
+Registry path: `registry/concepts/drmarchand-os.md`  
+Repository identifier: `DrMarchand/DrMarchand-OS`  
 Legal authority: Design Orchard LLC
-Maintainer: 🔬 DrMarchand’s Lab⚛︎ratory™
-
----
 
 ## Definition
 
-DrMarchand-OS is the core engine repository for DrMarchand’s ∞ OS™.
+DrMarchand’s ∞ OS is the presentation, navigation, routing, and lifecycle framework described by this repository.
 
-It is where system meaning, architecture, Registry definitions, bridge boundaries, and executable preparation doctrine are defined before they are implemented elsewhere.
-
----
+The repository records architecture, concept definitions, connection boundaries, and preparation doctrine. It does not by itself prove that a hosted application or runtime exists.
 
 ## Role
 
-DrMarchand-OS provides the canonical repository spine for:
+The repository provides a working spine for:
 
-- Registry meaning
-- UNI foundational gear logic
-- Atlas relationship mapping
-- Flywheel motion and continuity
-- Workbench preparation and validation
-- Bridge interface boundaries
-- DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ references
+- registry meaning;
+- relationship mapping;
+- lifecycle and view-state documentation;
+- workbench distinctions;
+- connection boundaries;
+- private execution-system references using functional language.
 
----
+## Source boundary
 
-## Source of Truth
+Individual files prove their own contents at a cited revision. A registry record is not automatically proof that an external system is healthy, deployed, current, or authorized.
 
-DrMarchand-OS does not make every external document authoritative.
+## Naming boundary
 
-The Registry is the canonical source of meaning inside this repository. README files, code comments, license language, bridge documentation, and future runtime interfaces should reference the Registry instead of redefining concepts independently.
+Public mark claims are paused as of August 26, 2026. `DrMarchand-OS` remains the repository machine identifier. Internal system names and codenames are not public brand aliases.
 
----
-
-## Boundary
-
-DrMarchand-OS is not the same thing as a hosted application, external connector, third-party platform, or public service surface.
-
-It is the core engine repository and institutional architecture ledger.
