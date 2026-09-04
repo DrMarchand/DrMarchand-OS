@@ -1,0 +1,15 @@
+{
+  "name": "@drmarchand/uni-xyz-validation",
+  "version": "0.1.0-validation.0",
+  "private": true,
+  "type": "module",
+  "description": "Executable validation reference for UNI.XYZ BREATHE / REST / REACT.",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "evidence": "node scripts/generate-evidence.mjs"
+  },
+  "devDependencies": {
+    "ajv": "8.17.1",
+    "ajv-formats": "3.0.1"
+  }
+}

@@ -1,0 +1,664 @@
+{
+  "record_type": "UNI_XYZ_VALIDATION_EVIDENCE",
+  "generated_at": "2026-07-14T22:00:00.000Z",
+  "lifecycle_status": "VALIDATION",
+  "promotion_disposition": "HOLD",
+  "artifact_sha256": "7e66b30a5c23122397dab6f8ef333898c9918a2785d257eb53acd065df9e865f",
+  "validation_transition": {
+    "id": "lifecycle_transition:5473ce23df61fd00021113f2",
+    "kind": "LIFECYCLE_TRANSITION",
+    "observed_at": "2026-07-14T22:00:00.000Z",
+    "payload": {
+      "authority_receipt_id": null,
+      "from": "PROPOSED_PROMOTION_DRAFT",
+      "gate_digest": "1f0598e70baa9c3b6f35a9795d811202a519365421e3640e6e2d6c812da5aef2",
+      "publication_receipt_id": null,
+      "to": "VALIDATION"
+    },
+    "sha256": "5473ce23df61fd00021113f2e5d4177d4468f5478507868d8273d60b652473b8"
+  },
+  "summary": {
+    "local_pass": true,
+    "external_pass": false,
+    "ab_cases": 16,
+    "expected_observed_cases": 4,
+    "phase_cases": 4,
+    "negative_gate_cases": 5,
+    "adapter_cases": 4
+  },
+  "ab_matrix": [
+    {
+      "id": "AB-01",
+      "expected": {
+        "alpha_changed": false,
+        "beta_changed": false,
+        "different": false,
+        "connected": false
+      },
+      "observed": {
+        "alpha_changed": false,
+        "beta_changed": false,
+        "different": false,
+        "connected": false,
+        "expected_change": false,
+        "observed_change": false,
+        "classification": "STABILITY_OR_INERT"
+      },
+      "pass": true
+    },
+    {
+      "id": "AB-02",
+      "expected": {
+        "alpha_changed": false,
+        "beta_changed": false,
+        "different": false,
+        "connected": true
+      },
+      "observed": {
+        "alpha_changed": false,
+        "beta_changed": false,
+        "different": false,
+        "connected": true,
+        "expected_change": false,
+        "observed_change": false,
+        "classification": "STABILITY_OR_INERT"
+      },
+      "pass": true
+    },
+    {
+      "id": "AB-03",
+      "expected": {
+        "alpha_changed": false,
+        "beta_changed": false,
+        "different": true,
+        "connected": false
+      },
+      "observed": {
+        "alpha_changed": false,
+        "beta_changed": false,
+        "different": true,
+        "connected": false,
+        "expected_change": false,
+        "observed_change": false,
+        "classification": "STABILITY_OR_INERT"
+      },
+      "pass": true
+    },
+    {
+      "id": "AB-04",
+      "expected": {
+        "alpha_changed": false,
+        "beta_changed": false,
+        "different": true,
+        "connected": true
+      },
+      "observed": {
+        "alpha_changed": false,
+        "beta_changed": false,
+        "different": true,
+        "connected": true,
+        "expected_change": false,
+        "observed_change": false,
+        "classification": "STABILITY_OR_INERT"
+      },
+      "pass": true
+    },
+    {
+      "id": "AB-05",
+      "expected": {
+        "alpha_changed": false,
+        "beta_changed": true,
+        "different": false,
+        "connected": false
+      },
+      "observed": {
+        "alpha_changed": false,
+        "beta_changed": true,
+        "different": false,
+        "connected": false,
+        "expected_change": true,
+        "observed_change": true,
+        "classification": "CONFIRMED_CAPABILITY_CANDIDATE"
+      },
+      "pass": true
+    },
+    {
+      "id": "AB-06",
+      "expected": {
+        "alpha_changed": false,
+        "beta_changed": true,
+        "different": false,
+        "connected": true
+      },
+      "observed": {
+        "alpha_changed": false,
+        "beta_changed": true,
+        "different": false,
+        "connected": true,
+        "expected_change": true,
+        "observed_change": true,
+        "classification": "CONFIRMED_CAPABILITY_CANDIDATE"
+      },
+      "pass": true
+    },
+    {
+      "id": "AB-07",
+      "expected": {
+        "alpha_changed": false,
+        "beta_changed": true,
+        "different": true,
+        "connected": false
+      },
+      "observed": {
+        "alpha_changed": false,
+        "beta_changed": true,
+        "different": true,
+        "connected": false,
+        "expected_change": true,
+        "observed_change": true,
+        "classification": "CONFIRMED_CAPABILITY_CANDIDATE"
+      },
+      "pass": true
+    },
+    {
+      "id": "AB-08",
+      "expected": {
+        "alpha_changed": false,
+        "beta_changed": true,
+        "different": true,
+        "connected": true
+      },
+      "observed": {
+        "alpha_changed": false,
+        "beta_changed": true,
+        "different": true,
+        "connected": true,
+        "expected_change": true,
+        "observed_change": true,
+        "classification": "CONFIRMED_CAPABILITY_CANDIDATE"
+      },
+      "pass": true
+    },
+    {
+      "id": "AB-09",
+      "expected": {
+        "alpha_changed": true,
+        "beta_changed": false,
+        "different": false,
+        "connected": false
+      },
+      "observed": {
+        "alpha_changed": true,
+        "beta_changed": false,
+        "different": false,
+        "connected": false,
+        "expected_change": true,
+        "observed_change": true,
+        "classification": "CONFIRMED_CAPABILITY_CANDIDATE"
+      },
+      "pass": true
+    },
+    {
+      "id": "AB-10",
+      "expected": {
+        "alpha_changed": true,
+        "beta_changed": false,
+        "different": false,
+        "connected": true
+      },
+      "observed": {
+        "alpha_changed": true,
+        "beta_changed": false,
+        "different": false,
+        "connected": true,
+        "expected_change": true,
+        "observed_change": true,
+        "classification": "CONFIRMED_CAPABILITY_CANDIDATE"
+      },
+      "pass": true
+    },
+    {
+      "id": "AB-11",
+      "expected": {
+        "alpha_changed": true,
+        "beta_changed": false,
+        "different": true,
+        "connected": false
+      },
+      "observed": {
+        "alpha_changed": true,
+        "beta_changed": false,
+        "different": true,
+        "connected": false,
+        "expected_change": true,
+        "observed_change": true,
+        "classification": "CONFIRMED_CAPABILITY_CANDIDATE"
+      },
+      "pass": true
+    },
+    {
+      "id": "AB-12",
+      "expected": {
+        "alpha_changed": true,
+        "beta_changed": false,
+        "different": true,
+        "connected": true
+      },
+      "observed": {
+        "alpha_changed": true,
+        "beta_changed": false,
+        "different": true,
+        "connected": true,
+        "expected_change": true,
+        "observed_change": true,
+        "classification": "CONFIRMED_CAPABILITY_CANDIDATE"
+      },
+      "pass": true
+    },
+    {
+      "id": "AB-13",
+      "expected": {
+        "alpha_changed": true,
+        "beta_changed": true,
+        "different": false,
+        "connected": false
+      },
+      "observed": {
+        "alpha_changed": true,
+        "beta_changed": true,
+        "different": false,
+        "connected": false,
+        "expected_change": true,
+        "observed_change": true,
+        "classification": "CONFIRMED_CAPABILITY_CANDIDATE"
+      },
+      "pass": true
+    },
+    {
+      "id": "AB-14",
+      "expected": {
+        "alpha_changed": true,
+        "beta_changed": true,
+        "different": false,
+        "connected": true
+      },
+      "observed": {
+        "alpha_changed": true,
+        "beta_changed": true,
+        "different": false,
+        "connected": true,
+        "expected_change": true,
+        "observed_change": true,
+        "classification": "CONFIRMED_CAPABILITY_CANDIDATE"
+      },
+      "pass": true
+    },
+    {
+      "id": "AB-15",
+      "expected": {
+        "alpha_changed": true,
+        "beta_changed": true,
+        "different": true,
+        "connected": false
+      },
+      "observed": {
+        "alpha_changed": true,
+        "beta_changed": true,
+        "different": true,
+        "connected": false,
+        "expected_change": true,
+        "observed_change": true,
+        "classification": "CONFIRMED_CAPABILITY_CANDIDATE"
+      },
+      "pass": true
+    },
+    {
+      "id": "AB-16",
+      "expected": {
+        "alpha_changed": true,
+        "beta_changed": true,
+        "different": true,
+        "connected": true
+      },
+      "observed": {
+        "alpha_changed": true,
+        "beta_changed": true,
+        "different": true,
+        "connected": true,
+        "expected_change": true,
+        "observed_change": true,
+        "classification": "CONFIRMED_CAPABILITY_CANDIDATE"
+      },
+      "pass": true
+    }
+  ],
+  "expected_observed": [
+    {
+      "id": "EO-1",
+      "expected_change": true,
+      "observed_change": true,
+      "expected_classification": "CONFIRMED_CAPABILITY_CANDIDATE",
+      "observed_classification": "CONFIRMED_CAPABILITY_CANDIDATE",
+      "pass": true
+    },
+    {
+      "id": "EO-2",
+      "expected_change": true,
+      "observed_change": false,
+      "expected_classification": "FAILURE_OR_RESISTANCE",
+      "observed_classification": "FAILURE_OR_RESISTANCE",
+      "pass": true
+    },
+    {
+      "id": "EO-3",
+      "expected_change": false,
+      "observed_change": true,
+      "expected_classification": "SIDE_EFFECT_OR_DISCOVERY",
+      "observed_classification": "SIDE_EFFECT_OR_DISCOVERY",
+      "pass": true
+    },
+    {
+      "id": "EO-4",
+      "expected_change": false,
+      "observed_change": false,
+      "expected_classification": "STABILITY_OR_INERT",
+      "observed_classification": "STABILITY_OR_INERT",
+      "pass": true
+    }
+  ],
+  "phases": [
+    {
+      "expected": "PARTICLE",
+      "observed": {
+        "classification": "PARTICLE",
+        "measurements": {
+          "freedom": 0.2,
+          "relationship_strength": 0.1,
+          "energy": 0.2,
+          "pressure": 0.1,
+          "constraints": 0.1,
+          "geometry": 0.1,
+          "tolerance": 0.8
+        },
+        "model": "COMPUTATIONAL_ONTOLOGY_REFERENCE_0.1.0",
+        "scientific_law_claim": false
+      },
+      "pass": true
+    },
+    {
+      "expected": "GAS",
+      "observed": {
+        "classification": "GAS",
+        "measurements": {
+          "freedom": 0.9,
+          "relationship_strength": 0.2,
+          "energy": 0.8,
+          "pressure": 0.1,
+          "constraints": 0.2,
+          "geometry": 0.2,
+          "tolerance": 0.8
+        },
+        "model": "COMPUTATIONAL_ONTOLOGY_REFERENCE_0.1.0",
+        "scientific_law_claim": false
+      },
+      "pass": true
+    },
+    {
+      "expected": "LIQUID",
+      "observed": {
+        "classification": "LIQUID",
+        "measurements": {
+          "freedom": 0.6,
+          "relationship_strength": 0.6,
+          "energy": 0.5,
+          "pressure": 0.5,
+          "constraints": 0.5,
+          "geometry": 0.5,
+          "tolerance": 0.5
+        },
+        "model": "COMPUTATIONAL_ONTOLOGY_REFERENCE_0.1.0",
+        "scientific_law_claim": false
+      },
+      "pass": true
+    },
+    {
+      "expected": "SOLID",
+      "observed": {
+        "classification": "SOLID",
+        "measurements": {
+          "freedom": 0.2,
+          "relationship_strength": 0.9,
+          "energy": 0.3,
+          "pressure": 0.8,
+          "constraints": 0.9,
+          "geometry": 0.9,
+          "tolerance": 0.1
+        },
+        "model": "COMPUTATIONAL_ONTOLOGY_REFERENCE_0.1.0",
+        "scientific_law_claim": false
+      },
+      "pass": true
+    }
+  ],
+  "negative_gates": [
+    {
+      "failed_check": "identity",
+      "observed": {
+        "results": {
+          "identity": false,
+          "canon": true,
+          "reflection": true,
+          "drift": true,
+          "gate": true
+        },
+        "passed": false,
+        "failed": [
+          "identity"
+        ],
+        "disposition": "BLOCK"
+      },
+      "pass": true
+    },
+    {
+      "failed_check": "canon",
+      "observed": {
+        "results": {
+          "identity": true,
+          "canon": false,
+          "reflection": true,
+          "drift": true,
+          "gate": true
+        },
+        "passed": false,
+        "failed": [
+          "canon"
+        ],
+        "disposition": "BLOCK"
+      },
+      "pass": true
+    },
+    {
+      "failed_check": "reflection",
+      "observed": {
+        "results": {
+          "identity": true,
+          "canon": true,
+          "reflection": false,
+          "drift": true,
+          "gate": true
+        },
+        "passed": false,
+        "failed": [
+          "reflection"
+        ],
+        "disposition": "BLOCK"
+      },
+      "pass": true
+    },
+    {
+      "failed_check": "drift",
+      "observed": {
+        "results": {
+          "identity": true,
+          "canon": true,
+          "reflection": true,
+          "drift": false,
+          "gate": true
+        },
+        "passed": false,
+        "failed": [
+          "drift"
+        ],
+        "disposition": "BLOCK"
+      },
+      "pass": true
+    },
+    {
+      "failed_check": "gate",
+      "observed": {
+        "results": {
+          "identity": true,
+          "canon": true,
+          "reflection": true,
+          "drift": true,
+          "gate": false
+        },
+        "passed": false,
+        "failed": [
+          "gate"
+        ],
+        "disposition": "BLOCK"
+      },
+      "pass": true
+    }
+  ],
+  "adapters": [
+    {
+      "platform": "PHOENIX_SWIFTUI",
+      "semantic_delta": {
+        "changed": false,
+        "before_digest": "8e0284fa50280aaca45a9de0587efc01657949b95d614dae738cc06cad2dd90e",
+        "after_digest": "8e0284fa50280aaca45a9de0587efc01657949b95d614dae738cc06cad2dd90e"
+      },
+      "pass": true,
+      "receipt": {
+        "id": "adapter_round_trip:d51503bf44a936ca84489c0a",
+        "kind": "ADAPTER_ROUND_TRIP",
+        "observed_at": "2026-07-14T22:00:00.000Z",
+        "payload": {
+          "invariant_digest": "8e0284fa50280aaca45a9de0587efc01657949b95d614dae738cc06cad2dd90e",
+          "platform": "PHOENIX_SWIFTUI",
+          "presentation_digest": "28d09f4f8d61aa7a429076536f8bbe43650e70eedf460652dd207126a58d82e7"
+        },
+        "sha256": "d51503bf44a936ca84489c0ad3e4d7e4ca04dc8e7a89ba47484c067206566895"
+      }
+    },
+    {
+      "platform": "CHROMEOS_BOOTSTRAP",
+      "semantic_delta": {
+        "changed": false,
+        "before_digest": "8e0284fa50280aaca45a9de0587efc01657949b95d614dae738cc06cad2dd90e",
+        "after_digest": "8e0284fa50280aaca45a9de0587efc01657949b95d614dae738cc06cad2dd90e"
+      },
+      "pass": true,
+      "receipt": {
+        "id": "adapter_round_trip:eb9978deb7d27fe4813a9e40",
+        "kind": "ADAPTER_ROUND_TRIP",
+        "observed_at": "2026-07-14T22:00:00.000Z",
+        "payload": {
+          "invariant_digest": "8e0284fa50280aaca45a9de0587efc01657949b95d614dae738cc06cad2dd90e",
+          "platform": "CHROMEOS_BOOTSTRAP",
+          "presentation_digest": "35bf5e1164e7fdf34f13ac7bd8dba9ccec93b346cd0fb4bded68372d4a20d735"
+        },
+        "sha256": "eb9978deb7d27fe4813a9e40acf50e03c5405c19fe00cb70b7390282e182a9c8"
+      }
+    },
+    {
+      "platform": "WINDOWS",
+      "semantic_delta": {
+        "changed": false,
+        "before_digest": "8e0284fa50280aaca45a9de0587efc01657949b95d614dae738cc06cad2dd90e",
+        "after_digest": "8e0284fa50280aaca45a9de0587efc01657949b95d614dae738cc06cad2dd90e"
+      },
+      "pass": true,
+      "receipt": {
+        "id": "adapter_round_trip:79da5bd744f9345ddb0f7135",
+        "kind": "ADAPTER_ROUND_TRIP",
+        "observed_at": "2026-07-14T22:00:00.000Z",
+        "payload": {
+          "invariant_digest": "8e0284fa50280aaca45a9de0587efc01657949b95d614dae738cc06cad2dd90e",
+          "platform": "WINDOWS",
+          "presentation_digest": "4b20c025e543cf1a8b7f78d656c77f50a232e549b250c5dbc3c465e5a86cdd32"
+        },
+        "sha256": "79da5bd744f9345ddb0f713522f4769ab34002b94638f918fb1ce955c955cd4d"
+      }
+    },
+    {
+      "platform": "ANDROID",
+      "semantic_delta": {
+        "changed": false,
+        "before_digest": "8e0284fa50280aaca45a9de0587efc01657949b95d614dae738cc06cad2dd90e",
+        "after_digest": "8e0284fa50280aaca45a9de0587efc01657949b95d614dae738cc06cad2dd90e"
+      },
+      "pass": true,
+      "receipt": {
+        "id": "adapter_round_trip:17ef53042b0caf9ae05a6b3c",
+        "kind": "ADAPTER_ROUND_TRIP",
+        "observed_at": "2026-07-14T22:00:00.000Z",
+        "payload": {
+          "invariant_digest": "8e0284fa50280aaca45a9de0587efc01657949b95d614dae738cc06cad2dd90e",
+          "platform": "ANDROID",
+          "presentation_digest": "19010663085cee15d732fc9061b3e8e832cda40d35d7522540226731af1d9b43"
+        },
+        "sha256": "17ef53042b0caf9ae05a6b3c6359d49321e38975118226189ec56f4954164309"
+      }
+    }
+  ],
+  "external_readbacks": [
+    {
+      "system": "GOOGLE_DRIVE",
+      "status": "PASS",
+      "observation": "Hierarchy and proposal package resolved."
+    },
+    {
+      "system": "GITHUB",
+      "status": "VALIDATION",
+      "observation": "Admin/write authority confirmed; validation branch publication pending."
+    },
+    {
+      "system": "ONEDRIVE",
+      "status": "VALIDATION",
+      "observation": "Business drive resolved; package upload/readback pending."
+    },
+    {
+      "system": "ASANA",
+      "status": "BLOCKED",
+      "observation": "Private promotion task returned Not Authorized for the connected identity."
+    },
+    {
+      "system": "HUBSPOT",
+      "status": "BLOCKED",
+      "observation": "Intended and connected portals do not match; reauthorization is required."
+    },
+    {
+      "system": "ICLOUD",
+      "status": "BLOCKED",
+      "observation": "No connector or mounted target is available."
+    },
+    {
+      "system": "PHOENIX_SWIFT_TOOLCHAIN",
+      "status": "BLOCKED",
+      "observation": "Swift toolchain is unavailable; source boundary exists but is not compiled."
+    },
+    {
+      "system": "ANDROID_KOTLIN_TOOLCHAIN",
+      "status": "BLOCKED",
+      "observation": "Kotlin toolchain is unavailable; source boundary exists but is not compiled."
+    },
+    {
+      "system": "WINDOWS_DOTNET_TOOLCHAIN",
+      "status": "BLOCKED",
+      "observation": ".NET toolchain is unavailable; source boundary exists but is not compiled."
+    }
+  ]
+}

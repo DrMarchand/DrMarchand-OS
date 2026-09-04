@@ -1,0 +1,19 @@
+{
+  "id": "authority:fafc3e7604202c24cec49877",
+  "kind": "AUTHORITY",
+  "observed_at": "2026-07-14T22:00:00.000Z",
+  "payload": {
+    "artifact_sha256": "7e66b30a5c23122397dab6f8ef333898c9918a2785d257eb53acd065df9e865f",
+    "authorized_by": "AUTHORIZED_HUMAN_FOR_DESIGN_ORCHARD_LLC",
+    "decision": "AUTHORIZE_VALIDATION",
+    "legal_authority": "Design Orchard LLC",
+    "scope": "Execute the full UNI.XYZ validation workflow; canonical promotion remains conditional on every gate.",
+    "source_directive": "PRIVATE_AUTHORITY_DIRECTIVE_RECORDED"
+  },
+  "sha256": "fafc3e7604202c24cec498778b572c2d286f814235b7b973903417d4d5ebefce",
+  "authorized_by": "AUTHORIZED_HUMAN_FOR_DESIGN_ORCHARD_LLC",
+  "legal_authority": "Design Orchard LLC",
+  "decision": "AUTHORIZE_VALIDATION",
+  "scope": "Execute full validation; do not claim canonical promotion while any gate is blocked.",
+  "artifact_sha256": "7e66b30a5c23122397dab6f8ef333898c9918a2785d257eb53acd065df9e865f"
+}
