@@ -1,226 +1,97 @@
 # DrMarchand’s Ecosystem Map
 
-**Legal authority:** Design Orchard LLC  
-**Service brand:** 🏝️ Design Orchard℠  
-**Copyright owner:** Joseph Kyle Marchand  
-**Status:** Current topology canon
+**Operating company:** Design Orchard LLC
+**Status:** Working topology
 
----
-
-## Governing Model
+## Governing model
 
 ```text
 Design Orchard LLC
         │
-        ▼
-🏝️ Design Orchard℠
+        ├── DrMarchand’s Laboratory
+        │       └── internal execution systems
         │
-        ├── 🔬 DrMarchand’s Lab⚛︎ratory™
-        │       └── ⚙︎ Nɛuro-Forge Engine™ [INTERNAL]
-        │              └── internal trades
-        │
-        ├── 📚 DrMarchand’s ⚛︎ Library™
+        ├── DrMarchand’s Library
         │       └── preservation / records / curation
         │
-        └── KEJ Studio™
+        └── KEJ Studio
                 └── creative production
 ```
 
-Design Orchard LLC is the legal authority. The marked identities are governed brands or service brands. Ordinary operational components and machine identifiers do not inherit a mark automatically.
+Design Orchard LLC provides the company context. The operational areas remain distinct even when they share infrastructure or exchange authorized objects.
 
----
+## Public-language rule
 
-## Trade / Service Rule
+Public documentation should describe demonstrated function before branding. Internal tools, frameworks, workflows, folders, repositories, APIs, and experiments should not be presented as standalone products merely because they have names.
 
-A **trade** describes a capability or type of work.
+Third-party AI tools may participate in research or development without redefining an internal system as an AI product.
 
-When a trade is performed internally, it remains internal work. When the same trade is supplied to another party, Design Orchard is **performing a service**.
+## Mark rule
 
-```text
-CAPABILITY
-   ↓
-TRADE
-   ├── performed internally → INTERNAL WORK
-   └── supplied externally  → SERVICE
-                                ↓
-                         governed brand
-                                ↓
-                         agreement / record
-```
+Until further notice, `™` and `℠` are allowed only as functional folder names.
 
-This rule prevents a category error: the internal machinery that performs work is not itself the customer-facing service provider.
-
----
-
-## Brand and Mark Rule
-
-Current governed identities:
-
-- **🏝️ Design Orchard℠** — service brand
-- **🔬 DrMarchand’s Lab⚛︎ratory™** — brand
-- **📚 DrMarchand’s ⚛︎ Library™** — brand
-- **KEJ Studio™** — brand
-- **DrMarchand’s ∞ OS™** — governed operating framework identity
-- **⚙︎ Nɛuro-Forge Engine™** — governed internal system identity
-
-Operational components such as Workbench, Toolbox, Canvas, Blueprint, Bookshelf, Labyrinth, Vault, scripts, APIs, folders, repositories, commands, and machine identifiers remain unmarked unless separately promoted and governed.
-
----
-
-## Engine Boundary
-
-⚙︎ Nɛuro-Forge Engine™ belongs inside 🔬 DrMarchand’s Lab⚛︎ratory™.
-
-Its role is internal execution:
-
-- build;
-- automate;
-- validate;
-- compile;
-- route;
-- package;
-- deploy;
-- perform internal trades.
-
-The Engine does not become a public service surface merely because its work contributes to a deliverable.
-
-When Engine-supported work is supplied externally, the external activity is a service performed through the appropriate Design Orchard brand.
-
----
-
-## OS / Engine Relationship
+A marked folder and an otherwise identical unmarked folder are the same functional namespace:
 
 ```text
-DrMarchand’s ∞ OS™
-  governance / state / navigation / lifecycle
-                │
-                ▼
-🔬 DrMarchand’s Lab⚛︎ratory™
-                │
-                ▼
-⚙︎ Nɛuro-Forge Engine™
-  internal execution / trades
+Name™  == Name
+Name℠  == Name
 ```
 
-The OS may coordinate the Engine without changing its ownership or publication boundary.
+This equivalence is functional, not a command to merge blindly. Before compaction, reconcile contents, object identity, permissions, links, shortcuts, scripts, configuration, and external references. Once reconciled, the unmarked folder is the preferred compacted home.
 
----
+Marks should not be added to public prose, website copy, repository titles/descriptions, ordinary documentation, or new machine identifiers under the current rule.
+
+Existing machine identifiers and historical evidence remain as observed until separately migrated or archived.
+
+## OS boundary
+
+The current public name is **DrMarchand’s OS**.
+
+```text
+Infinite = bridge within DrMarchand’s OS
+Infinity = boundary of DrMarchand’s OS
+```
+
+Infinite and Infinity are architectural functions. They are not alternate names for the OS.
+
+## Execution boundary
+
+DrMarchand’s Laboratory maintains internal execution systems for build, automation, validation, compilation, routing, packaging, deployment, and other authorized technical work.
+
+Internal execution machinery is not automatically a public service or product. Detailed implementation remains in the appropriate internal context unless deliberately published.
 
 ## Laboratory / Library / Vault
 
-```text
-🔬 Laboratory
-      ▲
-      │
-🌀 Labyrinth
-   ╱     ╲
-  ▼       ▼
-📚 Library  🔐 Vault
-```
-
 - Laboratory: research, experimentation, development, build, and test.
 - Library: preservation, indexing, curation, records, and publication support.
-- Vault: access-restricted high-authority assets.
+- Vault: access-restricted assets.
 - Labyrinth: routing, discovery, lineage, relationships, and recall.
 
 Recall creates a working instance; it does not overwrite the preserved record.
 
----
+## Atlas
 
-## Workbenches
+Atlas maps registered objects, relationships, topology, and recorded system state. It does not hold legal or organizational authority.
 
-Workbench is an operational role rather than an automatically marked identity.
+## Storage and provider roles
 
-```text
-📚 Library → Library Workbench
-🔬 Laboratory → Laboratory Workbench
-```
+External providers are operating surfaces and bridges, not sources of Design Orchard authority merely because an object is stored there.
 
-Library Workbench: review, comparison, curation, annotation, publication preparation, recall.
+- Google Drive — working records and cloud anchor where designated.
+- Dropbox — active asset workspace where designated.
+- GitHub — code, documentation, review, and intentionally public release surfaces.
+- DrMarchand’s Library — preserved knowledge and institutional record.
+- Vault — access-restricted assets.
+- OneDrive — finalized or sealed records where designated.
+- iCloud — Apple/local-personal bridge where designated.
+- Asana — execution task surface.
 
-Laboratory Workbench: build, prototype, compile, test, validate, package, release preparation.
+## Publication rule
 
----
-
-## Lifecycle
-
-```text
-💡 IDEA
-   ↓
-🧪 RESEARCH
-   ↓
-🔬 LABORATORY
-   ↓
-📐 DESIGN
-   ↓
-⚙︎ NƐURO-FORGE ENGINE
-   ↓
-🛠️ INTERNAL TRADES
-   ↓
-🏗️ BUILD
-   ↓
-🧪 TEST
-   ↓
-🔏 VERIFY
-   ↓
-♾️ OPERATE
-   ↓
-👁️ OBSERVE
-   ↓
-📚 PRESERVE
-```
-
-If an internal trade crosses the company boundary to a customer, client, collaborator, or other external party, insert the service boundary:
-
-```text
-🛠️ TRADE
-   ↓ supplied externally
-🤝 SERVICE
-   ↓
-🏷️ GOVERNED BRAND
-   ↓
-📄 AUTHORIZED RECORD
-```
-
----
-
-## Atlas Family
-
-🗺️ DrMarchand’s ⚛︎ Atlas maps registered objects, relationships, topology, and recorded truth states. It does not hold legal or organizational authority.
-
-- Atlas — topology and relationship mapping
-- Phoenix — recovery and connector health
-- Sabertooth — boundary defense
-- Panther — security and stealth observation
-- Timberwolf — coordination and mobile workflow routing
-- Echo — bot-template framework
-- Big Brother — observation, diagnostics, status, and alerts
-
----
-
-## Storage Authority
-
-```text
-Google Drive   = primary cloud anchor / governed working records
-Dropbox        = active asset and build workspace
-GitHub Private = validation, documentation, code review, internal consistency
-GitHub Public  = approved release surfaces
-Library        = preserved knowledge and institutional record
-Vault          = access-restricted assets
-OneDrive       = finalized/sealed records where designated
-iCloud         = Apple/local-personal bridge where designated
-Asana          = execution task layer
-HubSpot        = CRM/entity relationship layer
-```
-
----
-
-## Publication Rule
-
-Public visibility is a deliberate state, not an automatic consequence of creation.
+Public visibility is deliberate. Documentation should distinguish architecture, implementation, testing, and demonstrated runtime state.
 
 ```text
 CREATE → TEST → VERIFY → AUTHORIZE → PUBLISH → PRESERVE
 ```
 
-Internal Engine implementation, credentials, private infrastructure, confidential material, and restricted operational metadata remain internal unless specifically reviewed and approved for release.
+Credentials, private infrastructure, confidential material, and restricted operational metadata remain outside public surfaces unless specifically reviewed for release.
