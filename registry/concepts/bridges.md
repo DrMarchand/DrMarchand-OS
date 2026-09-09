@@ -1,52 +1,35 @@
 # Bridges
 
-Status: Canonical concept
-Registry path: `registry/concepts/bridges.md`
-System: DrMarchand-OS™
-
----
+Status: current concept  
+Registry path: `registry/concepts/bridges.md`  
+System: DrMarchand’s OS™
 
 ## Definition
 
-Bridges are controlled interfaces between DrMarchand's Lab⚛︎ratory™ systems and external platforms, services, APIs, connectors, or integrations.
+A Bridge is an explicit interface between a source and target system. It translates a bounded payload across a boundary without transferring ownership, authority, or identity.
 
-A bridge translates. It does not own or define the internal system.
+## Infinite bridge
 
----
+The `∞` symbol describes the **infinite bridge** concept inside DrMarchand’s OS™. It is architectural language, not another name for the OS.
 
-## Bridge Boundary
+## Required boundary
 
-External services, platforms, APIs, connectors, and integrations are not part of the engine directly.
+A Bridge should make the following explicit when implemented:
 
-All third-party integrations must be treated as bridge interfaces. A bridge translates between internal systems and external systems while preserving internal authority boundaries.
+```text
+source
+-> target
+-> direction
+-> payload
+-> requesting authority
+-> execution permission
+-> validation
+-> failure behavior
+-> receipt
+```
 
----
+External platforms remain external. They do not become part of DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ merely because the Engine invokes or validates a Bridge.
 
-## Role
+## Machine identifiers
 
-Bridges support:
-
-- external platform connection
-- connector translation
-- import/export flow
-- interface contracts
-- boundary enforcement
-- system protection from external authority confusion
-
----
-
-## Rule
-
-External systems must not be represented as owning or defining:
-
-- Registry meaning
-- internal authority
-- runtime identity
-- Atlas structure
-- DrMarchand's ⚙︎ Nɛuro-Forge Engine™ behavior
-
----
-
-## Boundary
-
-A bridge may connect to an external system, but it does not make that external system part of the internal engine.
+Identifiers such as `NFE-BRIDGE` or `OS-BRIDGE` may be used as stable coordinates when an implementation defines them. Their presence in documentation does not prove that a network path, credential, or execution flow is currently active.
