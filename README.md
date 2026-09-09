@@ -1,65 +1,66 @@
-# DrMarchand’s OS
+# DrMarchand’s OS™
 
-DrMarchand’s OS is an internal operating framework for organizing, navigating, routing, versioning, and recalling work across the Design Orchard ecosystem.
+> The presentation, navigation, routing, and lifecycle-state layer surrounding the Design Orchard / DrMarchand system.
 
-**Operating company:** Design Orchard LLC
+**Repository coordinate:** `DrMarchand/DrMarchand-OS` · **Public documentation surface** · **Execution remains separate**
 
-## Core relationship
+## Identity rule
 
-The OS presents and routes system state. Laboratory execution remains a separate function.
+The published system name is **DrMarchand’s OS™**.
 
-```text
-DrMarchand’s OS
-  presentation / navigation / routing / lifecycle state
-        ↓
-Laboratory systems
-  authorized execution / build / validation
+| Expression | Meaning |
+| --- | --- |
+| `DrMarchand’s OS™` | Current system identity |
+| `Infinity OS` / `Infinite OS` | Superseded aliases; replace in current prose |
+| `∞` | Infinite-bridge architecture inside the system, not the system name |
+| local production markers | Private; they do not belong on GitHub public surfaces |
+| `DrMarchand-OS` | Stable repository / machine coordinate |
+
+Machine identifiers and historical evidence may retain compatibility spellings where changing them would break a real path, API, database, or reference. They must be labeled as coordinates, not promoted as current names.
+
+## Purpose
+
+- presents system state without claiming execution;
+- routes users and interfaces toward the correct operating surface;
+- exposes lifecycle, release, and relationship context;
+- keeps public presentation separate from private implementation;
+- consumes validated identity and relationship information from authoritative sources.
+
+## Architecture
+
+```mermaid
+flowchart LR
+    H[Authorized human] --> OS[DrMarchand’s OS™]
+    OS --> VIEW[Presentation / navigation / routing]
+    ENG[DrMarchand’s ⚙︎ Nɛuro-Forge Engine™] --> STATE[Executed state / receipts]
+    STATE --> OS
+    LIB[Library records] --> OS
 ```
 
-The existence of an internal capability does not make it a public product or service.
+**DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ is not the OS.** The Engine executes and orchestrates within delegated permission; the OS presents and routes the resulting state.
 
-## Infinite / Infinity rule
+## Registry map
 
-These words describe architectural functions, not alternate OS names.
+- [`registry/CORE_ARCHITECTURE.md`](registry/CORE_ARCHITECTURE.md) - repository architecture and boundaries.
+- [`registry/decisions.md`](registry/decisions.md) - append-only architectural decisions and supersession records.
+- [`registry/glossary.md`](registry/glossary.md) - compact terminology map.
+- [`registry/concepts/`](registry/concepts/) - long-form concept records.
+- [`schemas/mysql/neuro_forge_engine/2026_07_05_atlas_runtime_seed.sql`](schemas/mysql/neuro_forge_engine/2026_07_05_atlas_runtime_seed.sql) - historical Atlas runtime seed; presence does not prove deployment.
+- [`protocols/`](protocols/) - protocol documents where present.
 
-```text
-Infinite = bridge within DrMarchand’s OS
-Infinity = boundary of DrMarchand’s OS
-```
+The Registry is a versioned engineering record. It does not grant legal authority or prove deployed runtime state by itself.
 
-`InfiniteOS`, `InfinityOS`, `Infinite OS`, and `Infinity OS` are not current public names for the system.
+## Validation
 
-## Coordinates
+Current validation is documentation- and schema-oriented. No single repository command is documented as a universal OS runtime because this repository does not prove one supported executable path. Validate identity, links, schema intent, and boundary claims against the exact artifact being changed.
 
-The OS may present relationships among Laboratory work, Library records, creative work, registered objects, recovery systems, security boundaries, and other internal components. Detailed implementation belongs in the appropriate internal context rather than the public landing description.
+## Public boundary
 
-## Laboratory / Library / Vault
+Do not publish credentials, private storage topology, private device identity, unpublished production markers, or internal host details here. Bridge implementations and execution credentials live outside the public OS repository.
 
-- **DrMarchand’s Laboratory** researches, creates, builds, and tests.
-- **DrMarchand’s Library** preserves, indexes, curates, and supports recall.
-- **Vault** protects access-restricted assets.
-- **Labyrinth** supports navigation, lineage, recall, and relationship routing.
+## Authority and rights
 
-Recall creates a working instance. It does not overwrite the preserved record.
+**Legal and operating company:** Design Orchard LLC  
+**Operating environment:** 🔬 DrMarchand’s Lab⚛︎ratory™
 
-## Atlas
-
-Atlas maps registered objects, relationships, topology, and recorded system state. It does not create legal or organizational authority.
-
-## Naming rule
-
-Until further notice, `™` and `℠` are reserved only for functional folder names.
-
-Public prose, repository documentation, titles, descriptions, and ordinary system references use unmarked names.
-
-A marked folder and the otherwise identical unmarked folder are the same functional namespace. After contents, permissions, references, and object identity are reconciled, the unmarked folder is the preferred compacted home.
-
-Machine identifiers and historical records may retain compatibility forms and should not be silently rewritten.
-
-## Publication rule
-
-Public material should favor plain descriptions and demonstrated capability over branding or speculative claims.
-
-```text
-BUILD → TEST → VERIFY → DESCRIBE → RELEASE WHEN APPROPRIATE
-```
+See [`RIGHTS.md`](RIGHTS.md) and [`LICENSE.md`](LICENSE.md) for repository-specific rights and license terms. Final promotion remains an authorized-human decision supported by evidence.
