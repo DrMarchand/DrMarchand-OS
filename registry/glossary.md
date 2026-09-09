@@ -1,61 +1,42 @@
 # Registry Glossary
 
-Status: Canonical reference
-Registry path: `registry/glossary.md`
-System: DrMarchand-OS™
+Status: current public reference  
+Repository: `DrMarchand/DrMarchand-OS`
 
----
+## DrMarchand’s OS™
 
-## Purpose
+The system presentation, navigation, routing, and lifecycle-state layer. `DrMarchand-OS` is the stable repository coordinate.
 
-This glossary provides short canonical meanings for Registry terms.
+`Infinity OS` and `Infinite OS` are superseded aliases, not current system identities.
 
-Long-form definitions live in `registry/concepts/`.
+## ∞ bridge
 
----
+An infinite-bridge architecture inside DrMarchand’s OS™. The infinity symbol describes the bridge concept; it does not rename the operating system.
 
-## Terms
+## DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
 
-### Atlas
+The bounded execution and orchestration system used within the Laboratory context. It remains separate from DrMarchand’s OS™.
 
-The map layer. Atlas defines nodes, relationships, coordinates, references, navigation paths, and topology.
+## 🗺️ DrMarchand’s ⚛︎ Atlas
 
-### Bridge
+The registered map / relationship / truth-resolution runtime. Atlas does not create legal or organizational authority.
 
-A controlled interface between internal DrMarchand's Lab⚛︎ratory™ systems and an external platform, service, API, connector, or integration.
+## Bridge
 
-### Bridge Boundary
+An explicit interface between a source and target system. External services stay external even when the Engine invokes, validates, or observes the bridge.
 
-The rule that external platforms connect through bridges and do not directly own or define the internal engine, Registry, runtime, or Atlas structure.
+## Workbench
 
-### DrMarchand-OS™
+A preparation surface where working forms can be shaped, tested, reviewed, or packaged. A Workbench is not the Engine.
 
-The core engine repository for DrMarchand's ∞ OS™.
+## 📚 DrMarchand’s ⚛︎ Library™
 
-### DrMarchand's ⚙︎ Nɛuro-Forge Engine™
+The preservation, curation, indexing, and recall layer for eligible records.
 
-The internal systems, automation, validation, documentation, runtime preparation, and infrastructure orchestration engine inside DrMarchand's Lab⚛︎ratory™.
+## Registry
 
-### DrMarchand's Lab⚛︎ratory™
+A versioned source of engineering meaning for the repository in which it lives. The private server identity registry remains authoritative for active display-name policy; GitHub may mirror a safe subset.
 
-The research, systems, software, validation, experimentation, and architecture division inside the Design Orchard LLC ecosystem.
+## Machine identifier
 
-### Flywheel
-
-The motion, continuity, and redirection layer of DrMarchand-OS™.
-
-### Orchard
-
-The public ecosystem layer of Design Orchard LLC, represented publicly by 🌴 Design Orchard™.
-
-### Registry
-
-The canonical source of truth for system meaning inside DrMarchand-OS™.
-
-### UNI
-
-The foundational gear logic that allows DrMarchand-OS™ to operate as one governed system.
-
-### Workbench
-
-The preparation layer where working forms are reviewed, shaped, tested, validated, packaged, or prepared before release or preservation.
+A stable coordinate such as a repository slug, route, path, database name, or bridge ID. Machine identifiers may preserve compatibility spelling without becoming published product names.
