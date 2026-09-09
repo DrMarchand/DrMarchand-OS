@@ -1,45 +1,36 @@
-# DrMarchand-OS
+# DrMarchand’s OS™
 
-Status: Canonical concept
-Registry path: `registry/concepts/drmarchand-os.md`
-Repository: DrMarchand/DrMarchand-OS
-Legal authority: Design Orchard LLC
-Maintainer: 🔬 DrMarchand’s Lab⚛︎ratory™
-
----
+Status: current concept  
+Registry path: `registry/concepts/drmarchand-os.md`  
+Repository coordinate: `DrMarchand/DrMarchand-OS`  
+Legal and operating company: Design Orchard LLC
 
 ## Definition
 
-DrMarchand-OS is the core engine repository for DrMarchand’s ∞ OS™.
+DrMarchand’s OS™ is the presentation, navigation, routing, and lifecycle-state layer surrounding the Design Orchard / DrMarchand system.
 
-It is where system meaning, architecture, Registry definitions, bridge boundaries, and executable preparation doctrine are defined before they are implemented elsewhere.
+It provides a consistent human-facing view of registered relationships and validated state without becoming the execution Engine itself.
 
----
+## Naming boundary
+
+`Infinity OS` and `Infinite OS` are superseded aliases. Current prose uses **DrMarchand’s OS™**.
+
+The `∞` symbol is an infinite-bridge concept inside the system. It is not an alternate name for the OS. Real machine coordinates may keep compatibility spellings when changing them would break a working reference.
 
 ## Role
 
-DrMarchand-OS provides the canonical repository spine for:
+DrMarchand’s OS™ supports:
 
-- Registry meaning
-- UNI foundational gear logic
-- Atlas relationship mapping
-- Flywheel motion and continuity
-- Workbench preparation and validation
-- Bridge interface boundaries
-- DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ references
+- presentation and navigation;
+- state and release visibility;
+- routing between appropriate system surfaces;
+- human-facing lifecycle context;
+- safe consumption of registered identity and relationship data.
 
----
+## Engine boundary
 
-## Source of Truth
+**DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ is separate.** The Engine may execute, validate, and orchestrate within delegated permission. The OS presents and routes the resulting state.
 
-DrMarchand-OS does not make every external document authoritative.
+## Authority boundary
 
-The Registry is the canonical source of meaning inside this repository. README files, code comments, license language, bridge documentation, and future runtime interfaces should reference the Registry instead of redefining concepts independently.
-
----
-
-## Boundary
-
-DrMarchand-OS is not the same thing as a hosted application, external connector, third-party platform, or public service surface.
-
-It is the core engine repository and institutional architecture ledger.
+The repository is public engineering documentation. It does not grant itself legal authority, runtime authority, or promotion authority. Active display policy comes from the private identity registry; final promotion remains an authorized-human decision.
