@@ -1,76 +1,36 @@
-# DrMarchand's ⚙︎ Nɛuro-Forge Engine™
+# DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
 
-Status: Canonical concept
-Registry path: `registry/concepts/neuro-forge-engine.md`
-System: DrMarchand-OS™
-Canonical public phrasing: DrMarchand's ⚙︎ Nɛuro-Forge Engine™
-Canonical internal shorthand: ⚙︎ Nɛuro-Forge Engine™
-
----
+Status: current concept  
+Registry role: Engine concept record  
+Related system: DrMarchand’s OS™
 
 ## Definition
 
-DrMarchand's ⚙︎ Nɛuro-Forge Engine™ is the internal systems, automation, validation, documentation, runtime preparation, and infrastructure orchestration engine inside DrMarchand's Lab⚛︎ratory™.
+DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ is the bounded execution and orchestration system used inside the Laboratory operating context.
 
-It compiles, validates, prepares, and documents executable system definitions.
+It may execute, automate, validate, prepare, and coordinate work only within delegated permission. It is not independently sovereign and it does not grant itself authority.
 
----
+## Identity
 
-## Naming Rule
-
-The canonical public phrasing is:
+External and cross-system prose uses the complete identity:
 
 ```text
-DrMarchand's ⚙︎ Nɛuro-Forge Engine™
+DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
 ```
 
-The approved internal shorthand is:
+Internal display policy is resolved inside the Laboratory context; external documentation uses the complete published Engine identity.
+
+Machine identifiers such as `NFE` may remain stable coordinates. They are not alternate published names.
+
+## Relationship to DrMarchand’s OS™
 
 ```text
-⚙︎ Nɛuro-Forge Engine™
+Engine: execute / validate / orchestrate
+OS:     present / navigate / route state
 ```
 
-The following forms are forbidden outside explicit historical, diagnostic, or correction contexts:
+The Engine is not a component *inside* the OS merely because the OS can display Engine state. They connect through explicit interfaces.
 
-```text
-Neuro-Forge
-Nɛuro-Forge
-Neuro-Forge Engine
-Nɛuro-Forge Engine
-```
+## Bridge boundary
 
-The name must not be reduced to the forge term without the Engine identity. The word `Engine` is required, and public references must preserve the DrMarchand's prefix, gear mark, `ɛ`, hyphenation, and trademark mark.
-
----
-
-## Role
-
-The Engine supports:
-
-- automation
-- validation
-- system compilation
-- documentation preparation
-- bridge interface preparation
-- runtime definition preparation
-- infrastructure orchestration
-
----
-
-## Relationship
-
-```text
-Registry defines meaning
-Atlas maps relationships
-Flywheel redirects motion
-Workbench prepares forms
-DrMarchand's ⚙︎ Nɛuro-Forge Engine™ compiles and validates executable definitions
-```
-
----
-
-## Boundary
-
-The Engine is not an external connector and should not communicate directly with third-party platforms.
-
-External platforms connect through bridge interfaces.
+External services, platforms, APIs, and connectors remain external and cross through explicit Bridge contracts. A Bridge does not become an Engine component and does not carry organizational authority.
