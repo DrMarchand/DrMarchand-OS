@@ -93,3 +93,15 @@ Decisions should be appended, not silently rewritten, unless a later decision ex
 **Reason:** Local production notation is a security and context boundary, not a portable product identity.
 
 **Status:** Adopted 2026-09-09 by authorized-human instruction.
+
+---
+
+## Decision 009 — Preserve recovered Design Orchard OS genesis and lineage
+
+**Decision:** The recovered `Design Orchard OS Starter` README dated 2026-06-11 is preserved as the earliest concrete Design Orchard OS artifact currently established by available evidence. Later Design Orchard OS and DrMarchand’s OS™ artifacts are recorded as descendants or related representations rather than silently replacing that state.
+
+**Reason:** MAP discovery found the June artifact after an August 2026 hierarchy representation had already been treated as the oldest known state. The chronology must follow evidence rather than discovery order. Genesis, descendants, and current doctrine remain separately inspectable.
+
+**Evidence:** `registry/lineage/README.genesis-20260611.md` and `registry/lineage/LINEAGE_RECORD_20260915.json`.
+
+**Status:** Recorded 2026-09-15 by authorized-human instruction to find the old artifact, record its state, update what existed first, and run the lineage preservation workflow.
