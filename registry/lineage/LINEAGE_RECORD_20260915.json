@@ -1,0 +1,30 @@
+{
+  "record_type": "Design Orchard OS lineage",
+  "genesis": {
+    "date": "2026-06-11",
+    "source": "Dropbox",
+    "artifact": "README.md",
+    "title": "Design Orchard OS Starter",
+    "owner": "Design Orchard LLC",
+    "sha256": "e56501c18fab2aff4483a0b4cbf3ee091bc113a69da1e39d69ee9324021c9e21"
+  },
+  "descendants": [
+    {
+      "date": "2026-08-08",
+      "source": "SharePoint/OneDrive",
+      "artifact": "DesignOrchardOS/README.txt",
+      "relationship": "later company-side hierarchy representation"
+    },
+    {
+      "date": "2026-09-15",
+      "artifact": "SYSTEM_DOCTRINE.md",
+      "relationship": "doctrine descendant preserving recovered Design Orchard OS lineage"
+    }
+  ],
+  "rules": [
+    "Preserve genesis.",
+    "Do not rewrite chronology when an earlier artifact is discovered.",
+    "Update descendants to point backward to recovered ancestors.",
+    "Connection does not require collapse."
+  ]
+}
