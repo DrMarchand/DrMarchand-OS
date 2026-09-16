@@ -1,0 +1,516 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:drmarchand:uni.xyz:schema:0.1.0-validation",
+  "title": "UNI.XYZ BREATHE / REST / REACT Validation Object",
+  "description": "Executable-law validation schema. This is a computational ontology and does not claim to be a physical scientific law.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "object_id",
+    "schema_version",
+    "lifecycle_status",
+    "authority",
+    "source",
+    "alpha",
+    "beta",
+    "command",
+    "cycle",
+    "observation",
+    "phase",
+    "evidence",
+    "promotion"
+  ],
+  "properties": {
+    "object_id": {
+      "type": "string",
+      "pattern": "^UNI\\.XYZ:[A-Za-z0-9._:-]+$"
+    },
+    "schema_version": {"const": "0.1.0-validation"},
+    "lifecycle_status": {
+      "enum": [
+        "WORKING",
+        "PROPOSED_PROMOTION_DRAFT",
+        "VALIDATION",
+        "APPROVED",
+        "CANONICAL",
+        "SUPERSEDED"
+      ]
+    },
+    "authority": {"$ref": "#/$defs/authority"},
+    "source": {"$ref": "#/$defs/source"},
+    "alpha": {"$ref": "#/$defs/alpha"},
+    "beta": {"$ref": "#/$defs/beta"},
+    "command": {"$ref": "#/$defs/command"},
+    "cycle": {"$ref": "#/$defs/cycle"},
+    "observation": {"$ref": "#/$defs/observation"},
+    "phase": {"$ref": "#/$defs/phase"},
+    "evidence": {
+      "type": "array",
+      "minItems": 3,
+      "items": {"$ref": "#/$defs/evidence"}
+    },
+    "promotion": {"$ref": "#/$defs/promotion"},
+    "external_ids": {"$ref": "#/$defs/externalIds"}
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "command": {
+            "properties": {"authority_status": {"const": "AUTHORIZED"}},
+            "required": ["authority_status"]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "authority": {
+            "properties": {"authorized_by": {"type": "string", "minLength": 1}},
+            "required": ["authorized_by"]
+          },
+          "cycle": {
+            "properties": {
+              "delta": {
+                "properties": {
+                  "authorized": {"const": true},
+                  "mutation_applied": {"type": "boolean"},
+                  "effect_receipt_id": {"type": "string", "minLength": 1},
+                  "next_state_id": {"type": "string", "minLength": 1}
+                },
+                "required": ["effect_receipt_id", "next_state_id"]
+              }
+            }
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "cycle": {
+            "properties": {
+              "delta": {
+                "properties": {
+                  "authorized": {"const": false},
+                  "mutation_applied": {"const": false},
+                  "next_state_id": {"type": "null"}
+                }
+              },
+              "theta": {
+                "properties": {
+                  "disposition": {
+                    "enum": ["REMAIN_AT_REST", "ASSIMILATE", "ISOLATE", "ESCALATE", "REJECT"]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "observation": {
+            "properties": {
+              "expected_change": {"const": true},
+              "observed_change": {"const": true}
+            },
+            "required": ["expected_change", "observed_change"]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "observation": {
+            "properties": {"classification": {"const": "CONFIRMED_CAPABILITY_CANDIDATE"}}
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "observation": {
+            "properties": {
+              "expected_change": {"const": true},
+              "observed_change": {"const": false}
+            },
+            "required": ["expected_change", "observed_change"]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "observation": {
+            "properties": {"classification": {"const": "FAILURE_OR_RESISTANCE"}}
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "observation": {
+            "properties": {
+              "expected_change": {"const": false},
+              "observed_change": {"const": true}
+            },
+            "required": ["expected_change", "observed_change"]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "observation": {
+            "properties": {"classification": {"const": "SIDE_EFFECT_OR_DISCOVERY"}}
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "observation": {
+            "properties": {
+              "expected_change": {"const": false},
+              "observed_change": {"const": false}
+            },
+            "required": ["expected_change", "observed_change"]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "observation": {
+            "properties": {"classification": {"const": "STABILITY_OR_INERT"}}
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "lifecycle_status": {
+            "enum": ["APPROVED", "CANONICAL", "SUPERSEDED"]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "authority": {
+            "properties": {
+              "authorized_by": {"type": "string", "minLength": 1},
+              "authority_receipt": {"$ref": "#/$defs/authorityReceipt"}
+            },
+            "required": ["authorized_by", "authority_receipt"]
+          },
+          "evidence": {
+            "items": {
+              "allOf": [
+                {"$ref": "#/$defs/evidence"},
+                {"properties": {"integrity_status": {"const": "VERIFIED"}}}
+              ]
+            }
+          },
+          "promotion": {
+            "properties": {
+              "gate_results": {
+                "properties": {
+                  "identity": {"const": true},
+                  "canon": {"const": true},
+                  "reflection": {"const": true},
+                  "drift": {"const": true},
+                  "gate": {"const": true}
+                }
+              },
+              "zero_unexplained_drift": {"const": true},
+              "canonical_write_path": {"const": true},
+              "disposition": {"const": "PASS"}
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {"lifecycle_status": {"const": "CANONICAL"}}
+      },
+      "then": {
+        "properties": {
+          "source": {
+            "properties": {
+              "commit_sha": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+              "blob_sha": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+              "artifact_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+            },
+            "required": ["commit_sha", "blob_sha", "artifact_sha256"]
+          },
+          "promotion": {
+            "properties": {
+              "authority_receipt_id": {"type": "string", "minLength": 1},
+              "publication_receipt_id": {"type": "string", "minLength": 1},
+              "cross_system_readbacks": {"type": "array", "minItems": 1}
+            }
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "authority": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["legal_authority", "operating_dba", "operating_environment", "authorized_by"],
+      "properties": {
+        "legal_authority": {"const": "Design Orchard LLC"},
+        "operating_dba": {"const": "DrMarchand’s Laboratory"},
+        "operating_environment": {"const": "🔬 DrMarchand’s Lab⚛︎ratory™"},
+        "authorized_by": {"type": ["string", "null"]},
+        "authority_receipt": {
+          "oneOf": [{"type": "null"}, {"$ref": "#/$defs/authorityReceipt"}]
+        }
+      }
+    },
+    "authorityReceipt": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "authorized_by", "authorized_at", "scope", "artifact_sha256", "decision"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "authorized_by": {"type": "string", "minLength": 1},
+        "authorized_at": {"type": "string", "format": "date-time"},
+        "scope": {"type": "string", "minLength": 1},
+        "artifact_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "decision": {"enum": ["AUTHORIZE_VALIDATION", "APPROVE_PROMOTION", "SUPERSEDE"]}
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["canonical_system", "repository", "branch", "path", "commit_sha", "blob_sha", "artifact_sha256"],
+      "properties": {
+        "canonical_system": {"const": "GITHUB"},
+        "repository": {"const": "DrMarchand/DrMarchand-OS"},
+        "branch": {"type": "string", "minLength": 1},
+        "path": {"type": "string", "minLength": 1},
+        "commit_sha": {"type": ["string", "null"], "pattern": "^[0-9a-f]{40}$"},
+        "blob_sha": {"type": ["string", "null"], "pattern": "^[0-9a-f]{40}$"},
+        "artifact_sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"},
+        "derivative_of": {"type": ["string", "null"]}
+      }
+    },
+    "subjectBase": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "role", "mode", "state_before", "state_after"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "role": {"type": "string"},
+        "mode": {"type": "string"},
+        "state_before": {},
+        "state_after": {}
+      }
+    },
+    "alpha": {
+      "allOf": [
+        {"$ref": "#/$defs/subjectBase"},
+        {"properties": {"role": {"const": "ALPHA"}, "mode": {"const": "AGGRESSIVE"}}}
+      ]
+    },
+    "beta": {
+      "allOf": [
+        {"$ref": "#/$defs/subjectBase"},
+        {"properties": {"role": {"const": "BETA"}, "mode": {"const": "CALM"}}}
+      ]
+    },
+    "command": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "intent", "issued_at", "authority_status"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "intent": {"type": "string", "minLength": 1},
+        "issued_at": {"type": "string", "format": "date-time"},
+        "authority_status": {"enum": ["PROPOSED", "AUTHORIZED", "DENIED", "UNKNOWN"]}
+      }
+    },
+    "cycle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["theta", "breathe", "delta"],
+      "properties": {
+        "theta": {"$ref": "#/$defs/theta"},
+        "breathe": {
+          "type": "array",
+          "minItems": 2,
+          "contains": {
+            "type": "object",
+            "properties": {"direction": {"const": "IN"}},
+            "required": ["direction"]
+          },
+          "minContains": 1,
+          "allOf": [
+            {
+              "contains": {
+                "type": "object",
+                "properties": {"direction": {"const": "OUT"}},
+                "required": ["direction"]
+              },
+              "minContains": 1
+            }
+          ],
+          "items": {"$ref": "#/$defs/breath"}
+        },
+        "delta": {"$ref": "#/$defs/delta"}
+      }
+    },
+    "theta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["function", "wisdom_before", "wisdom_after", "worked", "failed", "unresolved", "evidence_ids", "disposition"],
+      "properties": {
+        "function": {"const": "REST"},
+        "wisdom_before": {},
+        "wisdom_after": {},
+        "worked": {"type": "array", "items": {"type": "string"}},
+        "failed": {"type": "array", "items": {"type": "string"}},
+        "unresolved": {"type": "array", "items": {"type": "string"}},
+        "evidence_ids": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+        "disposition": {"enum": ["REMAIN_AT_REST", "ASSIMILATE", "ISOLATE", "ESCALATE", "REJECT"]}
+      }
+    },
+    "breath": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["direction", "boundary", "payload_type", "receipt_id", "boundary_identity_before", "boundary_identity_after"],
+      "properties": {
+        "direction": {"enum": ["IN", "OUT"]},
+        "boundary": {"type": "string", "minLength": 1},
+        "payload_type": {"enum": ["MATTER", "ENERGY", "CONTEXT", "INFORMATION", "EFFECT", "EVIDENCE"]},
+        "receipt_id": {"type": "string", "minLength": 1},
+        "boundary_identity_before": {"type": "string", "minLength": 1},
+        "boundary_identity_after": {"type": "string", "minLength": 1}
+      }
+    },
+    "delta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["function", "authorized", "mutation_applied", "effect_receipt_id", "previous_state_digest", "next_state_digest", "next_state_id"],
+      "properties": {
+        "function": {"const": "REACT"},
+        "authorized": {"type": "boolean"},
+        "mutation_applied": {"type": "boolean"},
+        "effect_receipt_id": {"type": ["string", "null"]},
+        "previous_state_digest": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "next_state_digest": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "next_state_id": {"type": ["string", "null"]}
+      }
+    },
+    "observation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["alpha_changed", "beta_changed", "different", "connected", "expected_change", "observed_change", "classification"],
+      "properties": {
+        "alpha_changed": {"type": "boolean"},
+        "beta_changed": {"type": "boolean"},
+        "different": {"type": "boolean"},
+        "connected": {"type": "boolean"},
+        "expected_change": {"type": "boolean"},
+        "observed_change": {"type": "boolean"},
+        "classification": {
+          "enum": ["CONFIRMED_CAPABILITY_CANDIDATE", "FAILURE_OR_RESISTANCE", "SIDE_EFFECT_OR_DISCOVERY", "STABILITY_OR_INERT"]
+        },
+        "magnitude": {"type": ["number", "null"]},
+        "causal_claim": {"type": ["string", "null"]}
+      }
+    },
+    "phase": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["classification", "measurements", "model", "scientific_law_claim"],
+      "properties": {
+        "classification": {"enum": ["PARTICLE", "GAS", "LIQUID", "SOLID", "UNRESOLVED"]},
+        "measurements": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["freedom", "relationship_strength", "energy", "pressure", "constraints", "geometry", "tolerance"],
+          "properties": {
+            "freedom": {"type": "number"},
+            "relationship_strength": {"type": "number"},
+            "energy": {"type": "number"},
+            "pressure": {"type": "number"},
+            "constraints": {"type": "number"},
+            "geometry": {"type": "number"},
+            "tolerance": {"type": "number"}
+          }
+        },
+        "model": {"const": "COMPUTATIONAL_ONTOLOGY_REFERENCE_0.1.0"},
+        "scientific_law_claim": {"const": false}
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind", "observed_at", "integrity_status", "sha256"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "kind": {"enum": ["INPUT", "EFFECT", "COMPARISON", "FAILURE", "SUCCESS", "DRIFT", "READBACK", "AUTHORITY"]},
+        "observed_at": {"type": "string", "format": "date-time"},
+        "integrity_status": {"enum": ["UNVERIFIED", "VERIFIED", "REJECTED", "QUARANTINED"]},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "uri": {"type": ["string", "null"], "format": "uri-reference"}
+      }
+    },
+    "promotion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["gate_results", "zero_unexplained_drift", "canonical_write_path", "cross_system_readbacks", "authority_receipt_id", "publication_receipt_id", "disposition"],
+      "properties": {
+        "gate_results": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["identity", "canon", "reflection", "drift", "gate"],
+          "properties": {
+            "identity": {"type": "boolean"},
+            "canon": {"type": "boolean"},
+            "reflection": {"type": "boolean"},
+            "drift": {"type": "boolean"},
+            "gate": {"type": "boolean"}
+          }
+        },
+        "zero_unexplained_drift": {"type": "boolean"},
+        "canonical_write_path": {"type": "boolean"},
+        "cross_system_readbacks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["system", "status", "receipt_id"],
+            "properties": {
+              "system": {"type": "string", "minLength": 1},
+              "status": {"enum": ["PASS", "BLOCKED", "EXCLUDED"]},
+              "receipt_id": {"type": ["string", "null"]}
+            }
+          }
+        },
+        "authority_receipt_id": {"type": ["string", "null"]},
+        "publication_receipt_id": {"type": ["string", "null"]},
+        "disposition": {"enum": ["HOLD", "PASS", "BLOCK"]}
+      }
+    },
+    "externalIds": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "asana_project_id": {"type": ["string", "null"]},
+        "asana_task_id": {"type": ["string", "null"]},
+        "hubspot_expected_account_id": {"type": ["string", "null"]},
+        "hubspot_observed_account_id": {"type": ["string", "null"]},
+        "hubspot_record_id": {"type": ["string", "null"]},
+        "google_drive_folder_id": {"type": ["string", "null"]},
+        "onedrive_url": {"type": ["string", "null"], "format": "uri"},
+        "icloud_status": {"enum": ["UNVERIFIED", "PASS", "BLOCKED", "EXCLUDED"]},
+        "github_url": {"type": ["string", "null"], "format": "uri"}
+      }
+    }
+  }
+}

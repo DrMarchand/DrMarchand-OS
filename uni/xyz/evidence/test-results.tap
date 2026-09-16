@@ -1,0 +1,118 @@
+TAP version 13
+# Subtest: all sixteen A/B configurations preserve independent dimensions
+ok 1 - all sixteen A/B configurations preserve independent dimensions
+  ---
+  duration_ms: 1.058084
+  type: 'test'
+  ...
+# Subtest: expected versus observed maps to all four canonical classifications
+ok 2 - expected versus observed maps to all four canonical classifications
+  ---
+  duration_ms: 0.107672
+  type: 'test'
+  ...
+# Subtest: BREATHE requires a direction and preserves boundary identity
+ok 3 - BREATHE requires a direction and preserves boundary identity
+  ---
+  duration_ms: 0.59748
+  type: 'test'
+  ...
+# Subtest: denied command cannot mutate authoritative state and returns evidence to REST
+ok 4 - denied command cannot mutate authoritative state and returns evidence to REST
+  ---
+  duration_ms: 0.994428
+  type: 'test'
+  ...
+# Subtest: authorized command mutates and emits a non-null effect receipt
+ok 5 - authorized command mutates and emits a non-null effect receipt
+  ---
+  duration_ms: 0.412191
+  type: 'test'
+  ...
+# Subtest: phase classification requires measurements and resolves four reference phases
+ok 6 - phase classification requires measurements and resolves four reference phases
+  ---
+  duration_ms: 0.326542
+  type: 'test'
+  ...
+# Subtest: each Lionheart integrity failure independently blocks the gate
+ok 7 - each Lionheart integrity failure independently blocks the gate
+  ---
+  duration_ms: 0.295895
+  type: 'test'
+  ...
+# Subtest: Big Brother observes drift without mutating the authoritative object
+ok 8 - Big Brother observes drift without mutating the authoritative object
+  ---
+  duration_ms: 0.188043
+  type: 'test'
+  ...
+# Subtest: platform adapters preserve semantic invariants while presentation may vary
+ok 9 - platform adapters preserve semantic invariants while presentation may vary
+  ---
+  duration_ms: 0.859635
+  type: 'test'
+  ...
+# Subtest: Phoenix submits commands and cannot directly claim an authoritative mutation
+ok 10 - Phoenix submits commands and cannot directly claim an authoritative mutation
+  ---
+  duration_ms: 0.224568
+  type: 'test'
+  ...
+# Subtest: lifecycle rejects direct promotion and requires receipts at approval boundaries
+ok 11 - lifecycle rejects direct promotion and requires receipts at approval boundaries
+  ---
+  duration_ms: 0.884123
+  type: 'test'
+  ...
+# Subtest: validation object passes the executable-law schema
+ok 12 - validation object passes the executable-law schema
+  ---
+  duration_ms: 9.066723
+  type: 'test'
+  ...
+# Subtest: denied authority plus authorized mutation is rejected
+ok 13 - denied authority plus authorized mutation is rejected
+  ---
+  duration_ms: 0.460525
+  type: 'test'
+  ...
+# Subtest: authorized reaction without effect receipt is rejected
+ok 14 - authorized reaction without effect receipt is rejected
+  ---
+  duration_ms: 0.431561
+  type: 'test'
+  ...
+# Subtest: classification inconsistent with expected and observed is rejected
+ok 15 - classification inconsistent with expected and observed is rejected
+  ---
+  duration_ms: 0.43162
+  type: 'test'
+  ...
+# Subtest: completed cycle without BREATHE.OUT is rejected
+ok 16 - completed cycle without BREATHE.OUT is rejected
+  ---
+  duration_ms: 0.558972
+  type: 'test'
+  ...
+# Subtest: label-only phase without measurements is rejected
+ok 17 - label-only phase without measurements is rejected
+  ---
+  duration_ms: 0.369166
+  type: 'test'
+  ...
+# Subtest: APPROVED without authority receipt or passing promotion gates is rejected
+ok 18 - APPROVED without authority receipt or passing promotion gates is rejected
+  ---
+  duration_ms: 0.390639
+  type: 'test'
+  ...
+1..18
+# tests 18
+# suites 0
+# pass 18
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 171.253743
