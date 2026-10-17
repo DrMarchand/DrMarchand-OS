@@ -32,12 +32,12 @@ Machine identifiers and historical evidence may retain compatibility spellings w
 flowchart LR
     H[Authorized human] --> OS[DrMarchand’s OS™]
     OS --> VIEW[Presentation / navigation / routing]
-    ENG[DrMarchand’s ⚙︎ Nɛuro-Forge Engine™] --> STATE[Executed state / receipts]
+    ENG[DrMarchand’s ⚙︎ Nɛuro-Forge Engine] --> STATE[Executed state / receipts]
     STATE --> OS
     LIB[Library records] --> OS
 ```
 
-**DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ is not the OS.** The Engine executes and orchestrates within delegated permission; the OS presents and routes the resulting state.
+**DrMarchand’s ⚙︎ Nɛuro-Forge Engine is not the OS.** The Engine executes and orchestrates within delegated permission; the OS presents and routes the resulting state.
 
 ## Registry map
 
@@ -61,6 +61,6 @@ Do not publish credentials, private storage topology, private device identity, u
 ## Authority and rights
 
 **Legal and operating company:** Design Orchard LLC  
-**Operating environment:** 🔬 DrMarchand’s Lab⚛︎ratory™
+**Operating environment:** 🔬 DrMarchand’s Lab⚛︎ratory
 
 See [`RIGHTS.md`](RIGHTS.md) and [`LICENSE.md`](LICENSE.md) for repository-specific rights and license terms. Final promotion remains an authorized-human decision supported by evidence.

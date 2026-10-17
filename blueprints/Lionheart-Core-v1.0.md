@@ -5,10 +5,10 @@
 | Glyph | Meaning |
 |---|---|
 | 🌱 | Design Orchard LLC legal root / ownership authority |
-| 🔬 | DrMarchand’s Lab⚛︎ratory™ environment |
-| 📚 | DrMarchand’s ⚛︎ Library™ canonical knowledge layer |
-| ∞ | Persistent operating memory / DrMarchand’s ∞ OS™ |
-| ⚙︎ | DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ runtime / implementation engine |
+| 🔬 | DrMarchand’s Lab⚛︎ratory environment |
+| 📚 | DrMarchand’s ⚛︎ Library canonical knowledge layer |
+| ∞ | Persistent operating memory / DrMarchand’s OS™ |
+| ⚙︎ | DrMarchand’s ⚙︎ Nɛuro-Forge Engine runtime / implementation engine |
 | ☸︎ | Connected ecosystem routing / Library-Lab-Engine bridge behavior |
 | 🪬 | Big Brother observation / health / drift monitoring layer |
 | 🦁 | Lionheart integrity enforcement authority |
@@ -31,14 +31,14 @@
 | 🧱 Project Name | 🦁 Lionheart Core |
 | 🏷️ Classification | ⚛︎ Core Infrastructure |
 | 🌱 Authority | Design Orchard LLC |
-| ∞ Operating Layer | DrMarchand’s ∞ OS™ |
-| ⚙︎ Runtime | DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ |
+| ∞ Operating Layer | DrMarchand’s OS™ |
+| ⚙︎ Runtime | DrMarchand’s ⚙︎ Nɛuro-Forge Engine |
 | 🧪 Status | Alpha Development |
 | 🪬 Observation Layer | Big Brother |
 | 🐶 Internal Protocol | AI Watchdog Protocol, internal codename: ROOFUS |
 | 🧩 Execution Mirror | Asana Async Execution Mirror |
 | 🪞 Sealed Mirror | Microsoft OneDrive Mirror Protocol |
-| 📚 Canon Layer | DrMarchand’s ⚛︎ Library™ |
+| 📚 Canon Layer | DrMarchand’s ⚛︎ Library |
 | ☸︎ Routing Context | GitHub Blueprint → Asana Async Mirror → Big Brother Drift Audit → OneDrive Sealed Mirror |
 
 ---
@@ -131,7 +131,7 @@ It exists to enforce:
 - 🐶 Internal AI Watchdog Protocol integration
 - 🧩 Asana async read/update integration
 - 🪞 OneDrive sealed mirror integration
-- ⚙︎ DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ integration
+- ⚙︎ DrMarchand’s ⚙︎ Nɛuro-Forge Engine integration
 - 🗺️ Atlas integration
 - 📣 Echo integration
 
@@ -357,7 +357,7 @@ The internal AI Watchdog Protocol does not replace Lionheart.
 - 🪬 Big Brother observes ecosystem health and drift.
 - 🐶 The internal AI Watchdog Protocol reviews AI behavior and reflective judgment quality.
 - 🧩 Asana reflects execution state.
-- ⚙︎ DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ implements capability definitions.
+- ⚙︎ DrMarchand’s ⚙︎ Nɛuro-Forge Engine implements capability definitions.
 - ◉ Runtime assets execute only after the correct gates pass.
 
 Protocol states:
@@ -418,12 +418,12 @@ Downstream systems may parse glyphs to infer:
 
 **Version:** 1.0  
 **Authority:** 🌱 Design Orchard LLC  
-**Operating Layer:** DrMarchand’s ∞ OS™  
-**Runtime:** DrMarchand’s ⚙︎ Nɛuro-Forge Engine™  
+**Operating Layer:** DrMarchand’s OS™  
+**Runtime:** DrMarchand’s ⚙︎ Nɛuro-Forge Engine  
 **Integrity Authority:** 🦁 Lionheart Core  
 **Internal Protocol:** 🐶 AI Watchdog Protocol, codename ROOFUS  
 **Execution Mirror:** 🧩 Asana Async Execution Mirror  
 **Sealed Mirror:** 🪞 Microsoft OneDrive Mirror Protocol  
 **Observation Layer:** 🪬 Big Brother  
-**Canon Layer:** 📚 DrMarchand’s ⚛︎ Library™  
+**Canon Layer:** 📚 DrMarchand’s ⚛︎ Library  
 **Status:** 🧪 Alpha Development

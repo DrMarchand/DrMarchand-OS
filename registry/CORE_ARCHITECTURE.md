@@ -23,9 +23,9 @@ Design Orchard LLC
 ```
 
 - **Design Orchard LLC** holds legal and organizational authority for authorized company work.
-- **DrMarchand’s ⚙︎ Nɛuro-Forge Engine™** executes and orchestrates within delegated permission.
+- **DrMarchand’s ⚙︎ Nɛuro-Forge Engine** executes and orchestrates within delegated permission.
 - **DrMarchand’s OS™** presents, navigates, and routes state; it does not perform Engine execution merely because it displays the result.
-- **📚 DrMarchand’s ⚛︎ Library™** preserves eligible records and evidence.
+- **📚 DrMarchand’s ⚛︎ Library** preserves eligible records and evidence.
 
 ## Identity authority
 

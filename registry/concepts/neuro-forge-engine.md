@@ -1,4 +1,4 @@
-# DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
+# DrMarchand’s ⚙︎ Nɛuro-Forge Engine
 
 Status: current concept  
 Registry role: Engine concept record  
@@ -6,7 +6,7 @@ Related system: DrMarchand’s OS™
 
 ## Definition
 
-DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ is the bounded execution and orchestration system used inside the Laboratory operating context.
+DrMarchand’s ⚙︎ Nɛuro-Forge Engine is the bounded execution and orchestration system used inside the Laboratory operating context.
 
 It may execute, automate, validate, prepare, and coordinate work only within delegated permission. It is not independently sovereign and it does not grant itself authority.
 
@@ -15,7 +15,7 @@ It may execute, automate, validate, prepare, and coordinate work only within del
 External and cross-system prose uses the complete identity:
 
 ```text
-DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
+DrMarchand’s ⚙︎ Nɛuro-Forge Engine
 ```
 
 Internal display policy is resolved inside the Laboratory context; external documentation uses the complete published Engine identity.

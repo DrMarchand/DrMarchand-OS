@@ -29,7 +29,7 @@ DrMarchand’s OS™ supports:
 
 ## Engine boundary
 
-**DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ is separate.** The Engine may execute, validate, and orchestrate within delegated permission. The OS presents and routes the resulting state.
+**DrMarchand’s ⚙︎ Nɛuro-Forge Engine is separate.** The Engine may execute, validate, and orchestrate within delegated permission. The OS presents and routes the resulting state.
 
 ## Authority boundary
 

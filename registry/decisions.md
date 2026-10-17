@@ -28,7 +28,7 @@ Decisions should be appended, not silently rewritten, unless a later decision ex
 
 **Decision:** External platforms, APIs, connectors, and integrations are treated as bridge interfaces.
 
-**Reason:** External systems may connect to 🔬 DrMarchand’s Lab⚛︎ratory™ systems, but they must not own or define internal authority, Registry meaning, runtime identity, or Atlas structure.
+**Reason:** External systems may connect to 🔬 DrMarchand’s Lab⚛︎ratory systems, but they must not own or define internal authority, Registry meaning, runtime identity, or Atlas structure.
 
 **Status:** Adopted.
 
@@ -36,7 +36,7 @@ Decisions should be appended, not silently rewritten, unless a later decision ex
 
 ## Decision 003 — Canonical Engine naming
 
-**Decision:** The canonical cross-system phrasing is `DrMarchand’s ⚙︎ Nɛuro-Forge Engine™`.
+**Decision:** The canonical cross-system phrasing is `DrMarchand’s ⚙︎ Nɛuro-Forge Engine`.
 
 **Reason:** The Engine identity must remain tied to DrMarchand’s system context and preserve the canonical `ɛ` spelling.
 
@@ -68,7 +68,7 @@ Decisions should be appended, not silently rewritten, unless a later decision ex
 
 ## Decision 006 — OS and Engine remain separate
 
-**Decision:** DrMarchand’s OS™ is the presentation, navigation, routing, and lifecycle-state layer. DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ is the bounded execution and orchestration system.
+**Decision:** DrMarchand’s OS™ is the presentation, navigation, routing, and lifecycle-state layer. DrMarchand’s ⚙︎ Nɛuro-Forge Engine is the bounded execution and orchestration system.
 
 **Reason:** Displaying Engine state does not make the Engine a component owned by the OS, and executing work does not make the Engine the presentation system.
 

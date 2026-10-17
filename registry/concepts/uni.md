@@ -48,4 +48,4 @@ UNI should be treated as:
 
 UNI should not be used as a vague synonym for the whole ecosystem.
 
-UNI is the foundational gear logic inside DrMarchand-OS™. It supports the system; it does not replace the Registry, Atlas, Flywheel, Workbench, or DrMarchand's ⚙︎ Nɛuro-Forge Engine™.
+UNI is the foundational gear logic inside DrMarchand-OS™. It supports the system; it does not replace the Registry, Atlas, Flywheel, Workbench, or DrMarchand's ⚙︎ Nɛuro-Forge Engine.

@@ -4,7 +4,7 @@
 **Status:** Public authored symbolic expression  
 **Authorized for publication:** 2026-08-19 01:13:35 EDT  
 **Author:** Joseph Kyle Marchand  
-**System context:** DrMarchand’s ∞ OS™  
+**System context:** DrMarchand’s OS™  
 **Legal and operating company:** Design Orchard LLC
 
 ## Glyph string
@@ -21,7 +21,7 @@
 
 This record preserves an authored multilingual/glyphic expression that deliberately mixes katakana-like phonetic forms, Latin letters, and recursive visual structure.
 
-It is a **Language Lock**: a stable symbolic phrase that may be referenced by DrMarchand’s ∞ OS™ documentation and related Design Orchard system records without changing its glyph sequence.
+It is a **Language Lock**: a stable symbolic phrase that may be referenced by DrMarchand’s OS™ documentation and related Design Orchard system records without changing its glyph sequence.
 
 The glyph string is preserved exactly as authored. The English line is its intended gloss; this record does **not** claim the glyph sequence is a standard or literal Japanese translation.
 

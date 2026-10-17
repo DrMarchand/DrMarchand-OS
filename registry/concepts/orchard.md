@@ -36,7 +36,7 @@ The Orchard provides the public ecosystem context for:
 
 - 🔬 DrMarchand’s Lab⚛︎ratory™
 - DrMarchand-OS
-- DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
+- DrMarchand’s ⚙︎ Nɛuro-Forge Engine
 - Registry-defined concepts
 - Bridge-facing public interfaces
 

@@ -17,8 +17,8 @@ There is no single generic Workbench.
 ## Canonical Distinction
 
 ```text
-📚 DrMarchand's ⚛︎ Library™ → 🪑 DrMarchand's ⎈ Workbench™
-🔬 DrMarchand's Lab⚛︎ratory™ → ⑁ DrMarchand's ⎈ Workbench™
+📚 DrMarchand's ⚛︎ Library → 🪑 DrMarchand's ⎈ Workbench
+🔬 DrMarchand's Lab⚛︎ratory™ → ⑁ DrMarchand's ⎈ Workbench
 ```
 
 The Library Workbench handles knowledge review, curation, publication preparation, and recall.

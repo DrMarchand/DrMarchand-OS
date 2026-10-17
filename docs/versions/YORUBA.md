@@ -1,4 +1,4 @@
-# DrMarchand’s ∞ OS™ — Yoruba
+# DrMarchand’s OS™ — Yoruba
 
 **Version position:** First public version name  
 **Status:** Current naming decision  
@@ -9,7 +9,7 @@
 
 `Yoruba`
 
-Yoruba replaces `Lionheart` as the first public version name for DrMarchand’s ∞ OS™.
+Yoruba replaces `Lionheart` as the first public version name for DrMarchand’s OS™.
 
 ## Historical preservation
 

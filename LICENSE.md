@@ -1,6 +1,6 @@
 # ⚛︎ 🔬 DrMarchand’s Lab⚛︎ratory™ — Lab License v1.0
 
-**Applied to:** `DrMarchand-OS` repository / DrMarchand’s ∞ OS™ framework  
+**Applied to:** `DrMarchand-OS` repository / DrMarchand’s OS™ framework  
 **Copyright:** © 2025 Joseph Kyle Marchand  
 **Legal authority:** Design Orchard LLC  
 **Public ecosystem:** 🌴 Design Orchard™  
@@ -14,7 +14,7 @@ This License governs the use, study, modification, and distribution of all mater
 
 The System is both a technical construct and a conceptual artwork.
 
-DrMarchand-OS is the core engine repository for DrMarchand’s ∞ OS™. Inside it lives UNI, the foundational gear logic that enables Atlas, supports the DrMarchand’s ⚙︎ Nɛuro-Forge Engine™, and connects the Laboratory back to the Orchard.
+DrMarchand-OS is the core engine repository for DrMarchand’s OS™. Inside it lives UNI, the foundational gear logic that enables Atlas, supports the DrMarchand’s ⚙︎ Nɛuro-Forge Engine, and connects the Laboratory back to the Orchard.
 
 ---
 
@@ -30,7 +30,7 @@ Commercial deployment, redistribution, resale, repackaging, hosted use, white-la
 
 Any public reference, reproduction, discussion, derivative work, fork, or educational use must include the following attribution statement:
 
-> Powered by 🔬 DrMarchand’s Lab⚛︎ratory™ • DrMarchand’s ∞ OS™ Framework v1.x • DrMarchand-OS Core Engine
+> Powered by 🔬 DrMarchand’s Lab⚛︎ratory™ • DrMarchand’s OS™ Framework v1.x • DrMarchand-OS Core Engine
 
 Where technically practical, attribution should also preserve the following authority reference:
 
@@ -42,7 +42,7 @@ Where technically practical, attribution should also preserve the following auth
 
 Modification of the System's symbolic grammar, brand marks, lineage identifiers, architecture names, registry meanings, or core relationship model without authorization is prohibited in any public or commercial derivative.
 
-Forks, study copies, and academic references must preserve the canonical structure of the DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ runtime documentation, including references to UNI, Atlas, Flywheel, Workbench, Registry, and Bridge Interfaces where those concepts are used.
+Forks, study copies, and academic references must preserve the canonical structure of the DrMarchand’s ⚙︎ Nɛuro-Forge Engine runtime documentation, including references to UNI, Atlas, Flywheel, Workbench, Registry, and Bridge Interfaces where those concepts are used.
 
 Names and marks require separate evidence and authorization. This license does not establish trademark registration, clearance, ownership, or current status.
 
@@ -52,7 +52,7 @@ Names and marks require separate evidence and authorization. This license does n
 
 External services, platforms, APIs, connectors, and integrations are not part of the engine directly.
 
-All third-party integrations must be treated as bridge interfaces. A bridge translates between 🔬 DrMarchand’s Lab⚛︎ratory™ systems and external platforms. External systems must not be represented as owning or defining the System's internal authority, registry, runtime, or Atlas structure.
+All third-party integrations must be treated as bridge interfaces. A bridge translates between 🔬 DrMarchand’s Lab⚛︎ratory systems and external platforms. External systems must not be represented as owning or defining the System's internal authority, registry, runtime, or Atlas structure.
 
 ---
 

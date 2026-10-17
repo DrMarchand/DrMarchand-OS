@@ -28,7 +28,7 @@ source
 -> receipt
 ```
 
-External platforms remain external. They do not become part of DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ merely because the Engine invokes or validates a Bridge.
+External platforms remain external. They do not become part of DrMarchand’s ⚙︎ Nɛuro-Forge Engine merely because the Engine invokes or validates a Bridge.
 
 ## Machine identifiers
 
