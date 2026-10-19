@@ -1,0 +1,54 @@
+{
+  "lifecycle_status": "VALIDATION",
+  "promotion_disposition": "HOLD",
+  "local_validation": "PASS",
+  "external_validation": "BLOCK",
+  "gate": {
+    "results": {
+      "identity": true,
+      "canon": true,
+      "reflection": true,
+      "drift": false,
+      "gate": false
+    },
+    "passed": false,
+    "failed": [
+      "drift",
+      "gate"
+    ],
+    "disposition": "BLOCK"
+  },
+  "blockers": [
+    {
+      "system": "ASANA",
+      "status": "BLOCKED",
+      "observation": "Private promotion task returned Not Authorized for the connected identity."
+    },
+    {
+      "system": "HUBSPOT",
+      "status": "BLOCKED",
+      "observation": "Intended and connected portals do not match; reauthorization is required."
+    },
+    {
+      "system": "ICLOUD",
+      "status": "BLOCKED",
+      "observation": "No connector or mounted target is available."
+    },
+    {
+      "system": "PHOENIX_SWIFT_TOOLCHAIN",
+      "status": "BLOCKED",
+      "observation": "Swift toolchain is unavailable; source boundary exists but is not compiled."
+    },
+    {
+      "system": "ANDROID_KOTLIN_TOOLCHAIN",
+      "status": "BLOCKED",
+      "observation": "Kotlin toolchain is unavailable; source boundary exists but is not compiled."
+    },
+    {
+      "system": "WINDOWS_DOTNET_TOOLCHAIN",
+      "status": "BLOCKED",
+      "observation": ".NET toolchain is unavailable; source boundary exists but is not compiled."
+    }
+  ],
+  "canonical_promotion_allowed": false
+}

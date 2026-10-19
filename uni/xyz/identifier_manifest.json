@@ -1,0 +1,41 @@
+{
+  "manifest_version": "0.1.0-validation-public",
+  "lifecycle_status": "VALIDATION",
+  "promotion_disposition": "HOLD",
+  "established_date": "2026-07-12",
+  "validation_started_at": "2026-07-14T22:00:00.000Z",
+  "object": {
+    "name": "UNI.XYZ BREATHE-REST-REACT",
+    "legal_authority": "Design Orchard LLC",
+    "operating_dba": "DrMarchand’s Laboratory",
+    "operating_environment": "🔬 DrMarchand’s Lab⚛︎ratory™",
+    "target_version": "0.1.0"
+  },
+  "source": {
+    "repository": "DrMarchand/DrMarchand-OS",
+    "base_branch": "main",
+    "base_commit_sha": "c11b7893d6fa10f29f1448c0db7df10e87a9e263",
+    "validation_branch": "agent/uni-xyz-validation",
+    "canonical_path": "uni/xyz/UNI.XYZ_PROPOSED_CANON.md",
+    "private_registry": "REQUIRED_FOR_EXACT_CONNECTOR_IDENTIFIERS"
+  },
+  "integrations": {
+    "asana": "BLOCKED_NOT_AUTHORIZED",
+    "hubspot": "QUARANTINED_PORTAL_MISMATCH_AND_REAUTHORIZATION_REQUIRED",
+    "google_drive": "PASS_PRIVATE_READBACK",
+    "onedrive": "PENDING_PRIVATE_VALIDATION_UPLOAD",
+    "icloud": "BLOCKED_CONNECTOR_UNAVAILABLE"
+  },
+  "native_toolchains": {
+    "swift": "BLOCKED_TOOLCHAIN_UNAVAILABLE",
+    "kotlin": "BLOCKED_TOOLCHAIN_UNAVAILABLE",
+    "dotnet": "BLOCKED_TOOLCHAIN_UNAVAILABLE"
+  },
+  "security": {
+    "contains_secrets": false,
+    "contains_private_connector_identifiers": false,
+    "private_identifier_manifest_published_to_github": false,
+    "hubspot_writes_performed": false,
+    "asana_writes_performed": false
+  }
+}
