@@ -1,22 +1,20 @@
 # DrMarchand’s OS™
 
-> The presentation, navigation, routing, and lifecycle-state layer surrounding the Design Orchard / DrMarchand system.
+> Public engineering documentation for the private Laboratory-linked OS and its relationship to the public company-wide OS.
 
 **Repository coordinate:** `DrMarchand/DrMarchand-OS` · **Public documentation surface** · **Execution remains separate**
 
-## Identity rule
+## Identity and scope — 2026-10-28
 
-The published system name is **DrMarchand’s OS™**.
-
-| Expression | Meaning |
+| Identity | Role |
 | --- | --- |
-| `DrMarchand’s OS™` | Current system identity |
-| `Infinity OS` / `Infinite OS` | Superseded aliases; replace in current prose |
-| `∞` | Infinite-bridge architecture inside the system, not the system name |
-| local production markers | Private; they do not belong on GitHub public surfaces |
-| `DrMarchand-OS` | Stable repository / machine coordinate |
+| DrMarchand’s OS™ | Private OS linked to 🔬 DrMarchand’s Lab⚛︎ratory™; publicly discussed for releases/betas. |
+| Design Orchard OS™ | Public OS linking all company/DBA surfaces as their base. |
+| ♾️ OS | Engine-specific bridge private root. |
+| ∞ OS | Engine-specific bridge public build. |
+| DrMarchand-OS | Stable repository coordinate. |
 
-Machine identifiers and historical evidence may retain compatibility spellings where changing them would break a real path, API, database, or reference. They must be labeled as coordinates, not promoted as current names.
+The [company system contract](https://github.com/DrMarchand/DesignOrchard.LLC/blob/main/SYSTEM_CONTRACT.md) supersedes conflicting OS/symbol wording. Preserve real identifiers and historical records. No repository rename or live deployment is implied.
 
 ## Purpose
 
@@ -61,6 +59,6 @@ Do not publish credentials, private storage topology, private device identity, u
 ## Authority and rights
 
 **Legal and operating company:** Design Orchard LLC  
-**Operating environment:** 🔬 DrMarchand’s Lab⚛︎ratory
+**Operating environment:** 🔬 DrMarchand’s Lab⚛︎ratory™
 
 See [`RIGHTS.md`](RIGHTS.md) and [`LICENSE.md`](LICENSE.md) for repository-specific rights and license terms. Final promotion remains an authorized-human decision supported by evidence.
