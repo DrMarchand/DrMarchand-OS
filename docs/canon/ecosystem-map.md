@@ -1,97 +1,21 @@
-# DrMarchand’s Ecosystem Map
+# Current Ecosystem Role Map
 
-**Operating company:** Design Orchard LLC
-**Status:** Working topology
+Source: [owner-corrected system contract](https://github.com/DrMarchand/DesignOrchard.LLC/blob/main/SYSTEM_CONTRACT.md), 2026-10-28.
 
-## Governing model
+## OS scope
 
-```text
-Design Orchard LLC
-        │
-        ├── DrMarchand’s Laboratory
-        │       └── internal execution systems
-        │
-        ├── DrMarchand’s Library
-        │       └── preservation / records / curation
-        │
-        └── KEJ Studio
-                └── creative production
-```
+Design Orchard OS™ is the public company-wide base. DrMarchand’s OS™ is the private Laboratory-linked OS, discussed publicly for releases/betas. The separate Engine bridge uses ♾️ OS for the private root and ∞ OS for the public build.
 
-Design Orchard LLC provides the company context. The operational areas remain distinct even when they share infrastructure or exchange authorized objects.
+Owner-defined pattern: **♾️ OS → ∞ OS → ⚙︎ Nɛuro-Forge Engine™ → ⚙︎ Nɛuro-Forge Engine**. Outside-system Engine identity: DrMarchand’s ⚙︎ Nɛuro-Forge Engine.
 
-## Public-language rule
+## Systems
 
-Public documentation should describe demonstrated function before branding. Internal tools, frameworks, workflows, folders, repositories, APIs, and experiments should not be presented as standalone products merely because they have names.
+DrMarchand’s 🖼️ Canvas is the universal UI bootstrap and Atlas-environment wireframing surface, displaying company publications through the distinct DrMarchand’s 🎨 Creative Canvas. KEJ Studio handles all company graphic design material through Creative Canvas and Dropbox; 🔬 DrMarchand’s Lab⚛︎ratory™ works from Google Drive and validates before/after publication.
 
-Third-party AI tools may participate in research or development without redefining an internal system as an AI product.
+🪬 Big Brother is the planned task manager for private user tasks and system condition/feasibility tasks. 🦮 Watchdog is the universal bad-code/stagnant/misfired/stopped-object detection protocol. 📚 DrMarchand’s ⚛︎ Library™ preserves approved records. Atlas environment, external surface and truth runtime remain distinct.
 
-## Mark rule
+The Engine’s JavaScript/REACT() shapes, SVG experience and non-AI dynamic-code 3D physics are developing capabilities, not verified by this map.
 
-Until further notice, `™` and `℠` are allowed only as functional folder names.
+## Supersession
 
-A marked folder and an otherwise identical unmarked folder are the same functional namespace:
-
-```text
-Name™  == Name
-Name℠  == Name
-```
-
-This equivalence is functional, not a command to merge blindly. Before compaction, reconcile contents, object identity, permissions, links, shortcuts, scripts, configuration, and external references. Once reconciled, the unmarked folder is the preferred compacted home.
-
-Marks should not be added to public prose, website copy, repository titles/descriptions, ordinary documentation, or new machine identifiers under the current rule.
-
-Existing machine identifiers and historical evidence remain as observed until separately migrated or archived.
-
-## OS boundary
-
-The current public name is **DrMarchand’s OS**.
-
-```text
-Infinite = bridge within DrMarchand’s OS
-Infinity = boundary of DrMarchand’s OS
-```
-
-Infinite and Infinity are architectural functions. They are not alternate names for the OS.
-
-## Execution boundary
-
-DrMarchand’s Laboratory maintains internal execution systems for build, automation, validation, compilation, routing, packaging, deployment, and other authorized technical work.
-
-Internal execution machinery is not automatically a public service or product. Detailed implementation remains in the appropriate internal context unless deliberately published.
-
-## Laboratory / Library / Vault
-
-- Laboratory: research, experimentation, development, build, and test.
-- Library: preservation, indexing, curation, records, and publication support.
-- Vault: access-restricted assets.
-- Labyrinth: routing, discovery, lineage, relationships, and recall.
-
-Recall creates a working instance; it does not overwrite the preserved record.
-
-## Atlas
-
-Atlas maps registered objects, relationships, topology, and recorded system state. It does not hold legal or organizational authority.
-
-## Storage and provider roles
-
-External providers are operating surfaces and bridges, not sources of Design Orchard authority merely because an object is stored there.
-
-- Google Drive — working records and cloud anchor where designated.
-- Dropbox — active asset workspace where designated.
-- GitHub — code, documentation, review, and intentionally public release surfaces.
-- DrMarchand’s Library — preserved knowledge and institutional record.
-- Vault — access-restricted assets.
-- OneDrive — finalized or sealed records where designated.
-- iCloud — Apple/local-personal bridge where designated.
-- Asana — execution task surface.
-
-## Publication rule
-
-Public visibility is deliberate. Documentation should distinguish architecture, implementation, testing, and demonstrated runtime state.
-
-```text
-CREATE → TEST → VERIFY → AUTHORIZE → PUBLISH → PRESERVE
-```
-
-Credentials, private infrastructure, confidential material, and restricted operational metadata remain outside public surfaces unless specifically reviewed for release.
+The prior blanket folder-only mark rule and public-DrMarchand’s-OS wording are superseded by the 2026-10-28 owner corrections. Preserve Git history and real identifiers. No folder merge, rights change, legal clearance or deployment is established here.
